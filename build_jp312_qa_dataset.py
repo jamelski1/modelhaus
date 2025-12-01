@@ -157,23 +157,32 @@ Generate 1-2 question-answer pairs in JSON format:"""
 
         # Extract the response text
         response_text = message.content[0].text
+        original_response = response_text  # Keep for debugging
 
         # Try to parse as JSON
         # Sometimes the model wraps JSON in markdown code blocks
         response_text = response_text.strip()
-        if response_text.startswith("```json"):
-            response_text = response_text[7:]
-        if response_text.startswith("```"):
-            response_text = response_text[3:]
-        if response_text.endswith("```"):
-            response_text = response_text[:-3]
-        response_text = response_text.strip()
 
+        # Remove markdown code blocks more robustly
+        if response_text.startswith("```json"):
+            response_text = response_text[7:].strip()
+        elif response_text.startswith("```"):
+            response_text = response_text[3:].strip()
+
+        if response_text.endswith("```"):
+            response_text = response_text[:-3].strip()
+
+        # Try to parse the JSON
         qa_pairs = json.loads(response_text)
+
+        # If response is a single dict instead of a list, wrap it in a list
+        if isinstance(qa_pairs, dict):
+            qa_pairs = [qa_pairs]
 
         # Validate structure
         if not isinstance(qa_pairs, list):
-            print(f"  WARNING: LLM response is not a list, skipping context")
+            print(f"  WARNING: LLM response is not a list or dict, skipping context")
+            print(f"  Response preview: {original_response[:200]}")
             return []
 
         valid_pairs = []
@@ -183,14 +192,17 @@ Generate 1-2 question-answer pairs in JSON format:"""
                     "question": pair["question"],
                     "answer": pair["answer"]
                 })
+            else:
+                print(f"  WARNING: Skipping invalid QA pair (missing question or answer)")
 
         return valid_pairs
 
     except json.JSONDecodeError as e:
         print(f"  WARNING: Failed to parse LLM response as JSON: {e}")
+        print(f"  Response preview: {original_response[:200] if 'original_response' in locals() else 'N/A'}")
         return []
     except Exception as e:
-        print(f"  WARNING: LLM API call failed: {e}")
+        print(f"  WARNING: LLM API call failed: {type(e).__name__}: {e}")
         return []
 
 
