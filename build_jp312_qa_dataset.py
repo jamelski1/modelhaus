@@ -113,32 +113,70 @@ def generate_llm_qa(context: str, api_key: str) -> List[Dict[str, str]]:
         sys.exit(1)
 
     # This is the LLM prompt - easily editable
-    PROMPT_TEMPLATE = """You are helping create a question-answer dataset from a military doctrine document (JP 3-12 on Cyberspace Operations).
+    n_questions = 2  # Number of QA pairs to generate per context
 
-I will provide you with a context chunk from the document. Your task is to generate 1-2 high-quality question-answer pairs where:
+    PROMPT_TEMPLATE = """You are creating high-quality question–answer pairs for a training dataset about
+Joint Publication (JP) 3-12, Cyberspace Operations.
 
-1. Each question must be answerable ONLY from the given context
-2. The answer must be concise and factual (1-3 sentences)
-3. Questions should focus on key concepts, definitions, procedures, or important facts
-4. Avoid yes/no questions - prefer "what", "how", "why", "who" questions
-5. The answer should be a direct extract or close paraphrase from the context
+Your ONLY source of truth is the CONTEXT provided. You must not invent facts.
 
-Return your response as a JSON array of objects, where each object has exactly these two fields:
-- "question": the question string
-- "answer": the answer string
+GOAL
+- Produce {n_questions} doctrinally useful question–answer pairs.
+- Each pair should help someone learn or test their understanding of JP 3-12.
 
-Example format:
+STRICT OUTPUT FORMAT
+- Respond with ONLY a JSON array.
+- Each element must be an object with exactly two string fields: "question" and "answer".
+- NO additional fields, NO explanations, NO prose, NO code fences.
+- The output MUST be valid JSON.
+
+VALID FORMAT EXAMPLE (structure only):
+
 [
-  {{
-    "question": "What is the primary purpose of cyberspace operations?",
-    "answer": "The primary purpose is to achieve military objectives in or through cyberspace."
-  }}
+  {{"question": "According to JP 3-12, what is cyberspace?", "answer": "Cyberspace is ..."}},
+  {{"question": "Which organization is responsible for X?", "answer": "X is the responsibility of ..."}}
 ]
 
-Context:
-{context}
+CONTENT RULES
 
-Generate 1-2 question-answer pairs in JSON format:"""
+1. CONTEXT-BASED ONLY
+   - Every question MUST be answerable directly and solely from the provided CONTEXT.
+   - Never use outside knowledge of JP 3-12.
+   - If the CONTEXT lacks detail, focus on what *is* stated.
+
+2. FOCUS ON DOCTRINE (NOT TRIVIA)
+   Prefer questions about:
+   - purposes and objectives
+   - roles, authorities, and responsibilities
+   - command relationships
+   - conditions and criteria
+   - processes, interactions, and key relationships
+   - definitions of doctrinal terms or program names
+
+   Avoid:
+   - URLs, office locations, administrative numbers
+   - trivial restatement of a single sentence
+
+3. VARIETY AND NON-DUPLICATION
+   - Each question MUST target a different idea or detail from the CONTEXT.
+   - Use diverse question types, such as:
+       * "What is the purpose of X?"
+       * "Under what conditions does Y occur?"
+       * "Which organization is responsible for Z?"
+       * "How does A support B?"
+       * "What relationship exists between A and B?"
+
+4. ANSWER STYLE
+   - Answers must be concise, factual, and ideally 5–40 words.
+   - Paraphrase when appropriate, but preserve doctrinal terminology.
+   - Do NOT reference the CONTEXT or JP 3-12 explicitly (avoid phrases like "according to the context").
+   - Just state the fact.
+
+Now, using ONLY the information found in the CONTEXT below,
+produce {n_questions} question–answer pairs in the required JSON format.
+
+CONTEXT:
+\"\"\"{context}\"\"\""""
 
     client = Anthropic(api_key=api_key)
 
@@ -150,7 +188,7 @@ Generate 1-2 question-answer pairs in JSON format:"""
             messages=[
                 {
                     "role": "user",
-                    "content": PROMPT_TEMPLATE.format(context=context)
+                    "content": PROMPT_TEMPLATE.format(n_questions=n_questions, context=context)
                 }
             ]
         )
