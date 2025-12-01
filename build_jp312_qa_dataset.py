@@ -129,10 +129,10 @@ Return your response as a JSON array of objects, where each object has exactly t
 
 Example format:
 [
-  {
+  {{
     "question": "What is the primary purpose of cyberspace operations?",
     "answer": "The primary purpose is to achieve military objectives in or through cyberspace."
-  }
+  }}
 ]
 
 Context:
