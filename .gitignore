@@ -1,0 +1,7 @@
+*.pth
+*.pt
+*.bin
+*.data-*
+*.index
+*.meta
+gpt2/

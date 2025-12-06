@@ -1,0 +1,2267 @@
+[
+    {
+      "question": "What is the definition of cyberspace operations?",
+      "answer": "Cyberspace operations (CO) is the employment of cyberspace capabilities where the primary purpose is to achieve objectives in or through cyberspace."
+    },
+    {
+      "question": "What are the three interrelated layers of cyberspace used for planning and execution?",
+      "answer": "The three layers are the physical network layer, the logical network layer, and the cyber-persona layer."
+    },
+    {
+      "question": "What does the physical network layer of cyberspace include?",
+      "answer": "The physical network layer includes hardware and infrastructure such as computing devices, storage devices, network devices, and wired and wireless links."
+    },
+    {
+      "question": "What does the logical network layer consist of?",
+      "answer": "The logical network layer consists of elements related to one another based on logic programming (code) that drives network components, including data, applications, and network processes not tied to a single node."
+    },
+    {
+      "question": "What is the cyber-persona layer?",
+      "answer": "The cyber-persona layer consists of network or IT user accounts, whether human or automated, and their relationships to one another, representing digital identities in cyberspace."
+    },
+    {
+      "question": "What is the DODIN?",
+      "answer": "The Department of Defense information network (DODIN) is the set of information capabilities and associated processes for collecting, processing, storing, disseminating, and managing information on-demand to warfighters, policy makers, and support personnel."
+    },
+    {
+      "question": "What are the three primary lines of operation for USCYBERCOM?",
+      "answer": "USCYBERCOM's three primary lines of operation are: secure, operate, and defend the DODIN; defend the nation from attack in cyberspace; and provide cyberspace support as required to combatant commanders."
+    },
+    {
+      "question": "What are the three types of cyberspace missions?",
+      "answer": "The three cyberspace missions are offensive cyberspace operations (OCO), defensive cyberspace operations (DCO), and DODIN operations."
+    },
+    {
+      "question": "What is the purpose of DODIN operations?",
+      "answer": "DODIN operations include operational actions taken to secure, configure, operate, extend, maintain, and sustain DOD cyberspace and to create and preserve the confidentiality, availability, and integrity of the DODIN."
+    },
+    {
+      "question": "What distinguishes DCO missions from DODIN operations?",
+      "answer": "DCO missions defeat specific threats that have bypassed, breached, or are threatening to breach security measures, while DODIN operations endeavor to secure DOD cyberspace from all threats in advance of any specific threat activity."
+    },
+    {
+      "question": "What are OCO missions intended to accomplish?",
+      "answer": "OCO are cyberspace operations missions intended to project power in and through foreign cyberspace through actions taken in support of combatant commander or national objectives."
+    },
+    {
+      "question": "What are the two components of defensive cyberspace operations?",
+      "answer": "The two components are DCO-Internal Defensive Measures (DCO-IDM), where defense actions occur within the defended network, and DCO-Response Actions (DCO-RA), where actions are taken external to the defended network."
+    },
+    {
+      "question": "What is the difference between blue, gray, and red cyberspace?",
+      "answer": "Blue cyberspace is DOD-owned or leased portions, red cyberspace is owned or controlled by an adversary or enemy, and gray cyberspace is all cyberspace that does not meet the description of either blue or red."
+    },
+    {
+      "question": "What are the three elements of the Cyber Mission Force?",
+      "answer": "The three elements are the Cyber Protection Force (CPF), the Cyber National Mission Force (CNMF), and the Cyber Combat Mission Force (CCMF)."
+    },
+    {
+      "question": "What is the role of the Cyber Protection Force?",
+      "answer": "The CPF conducts cyberspace operations for internal protection of the DODIN or other blue cyberspace when ordered, consisting of cyberspace protection teams (CPTs) that defend assigned cyberspace."
+    },
+    {
+      "question": "What does the Cyber National Mission Force do?",
+      "answer": "The CNMF conducts cyberspace operations to defeat significant cyberspace threats to the DODIN and, when ordered, to the nation."
+    },
+    {
+      "question": "What is the purpose of the Cyber Combat Mission Force?",
+      "answer": "The CCMF conducts cyberspace operations to support the missions, plans, and priorities of the geographic and functional combatant commanders."
+    },
+    {
+      "question": "What are the four types of cyberspace actions?",
+      "answer": "The four cyberspace actions are cyberspace security, cyberspace defense, cyberspace exploitation, and cyberspace attack."
+    },
+    {
+      "question": "What is cyberspace security?",
+      "answer": "Cyberspace security actions prevent or reduce the exposure of networks to threats by reducing or eliminating vulnerabilities and implementing measures to detect malicious cyberspace activities."
+    },
+    {
+      "question": "What is the purpose of cyberspace defense actions?",
+      "answer": "Cyberspace defense actions defeat specific threats that have breached or are threatening to breach cyberspace security measures, including actions to detect, characterize, counter, and mitigate threats."
+    },
+    {
+      "question": "What do cyberspace exploitation actions include?",
+      "answer": "Cyberspace exploitation actions include military intelligence activities, maneuver, information collection, and other enabling actions required to prepare for future military operations in gray or red cyberspace."
+    },
+    {
+      "question": "What effects do cyberspace attack actions create?",
+      "answer": "Cyberspace attack actions create noticeable denial effects (degradation, disruption, or destruction) in cyberspace or manipulation that leads to denial effects in the physical domains."
+    },
+    {
+      "question": "What are the three ways to deny a target in cyberspace?",
+      "answer": "The three denial methods are: degrade (reduce access or operation to a percentage level), disrupt (completely but temporarily deny access), and destroy (completely and irreparably deny access)."
+    },
+    {
+      "question": "How is manipulation defined as a form of cyberspace attack?",
+      "answer": "Manipulation controls or changes information, information systems, and networks in gray or red cyberspace to create physical denial effects using techniques like deception, spoofing, and falsification."
+    },
+    {
+      "question": "What is CDRUSCYBERCOM's role as coordinating authority for cyberspace operations?",
+      "answer": "CDRUSCYBERCOM plans, coordinates, integrates, synchronizes, and conducts activities to direct the security, operations, and defense of the DODIN and prepare to conduct military CO external to the DODIN."
+    },
+    {
+      "question": "What is the directive authority for cyberspace operations (DACO)?",
+      "answer": "DACO is authority established by CJCS EXORD that enables DOD-wide synchronized protection of the DODIN, allowing commanders to direct cyberspace security and defense actions across DOD components."
+    },
+    {
+      "question": "What role does the Secretary of Defense play in cyberspace operations?",
+      "answer": "SecDef directs the military, intelligence, and ordinary business operations of DOD in cyberspace and provides policy and guidance for employment of forces conducting cyberspace missions."
+    },
+    {
+      "question": "What is the CJCS's role in cyberspace operations?",
+      "answer": "As the global integrator, the CJCS advises the President and SecDef on operational policies, responsibilities, and programs, assists with implementing operational responses to threats, and translates SecDef guidance into orders."
+    },
+    {
+      "question": "What responsibilities do Service Chiefs have regarding cyberspace forces?",
+      "answer": "Service Chiefs provide appropriate administration and support to cyberspace forces, train and equip cyberspace forces, develop cyberspace capabilities, and comply with CDRUSCYBERCOM's direction for DODIN operations."
+    },
+    {
+      "question": "What is JFHQ-DODIN responsible for?",
+      "answer": "JFHQ-DODIN conducts operational-level planning, direction, coordination, execution, and oversight of global DODIN operations and DCO-IDM missions."
+    },
+    {
+      "question": "What does the Cyber National Mission Force Headquarters (CNMF-HQ) do?",
+      "answer": "CNMF-HQ conducts defense of the nation's cyberspace through operational-level planning, coordination, execution, and oversight of DCO-RA missions and employment of national CPTs."
+    },
+    {
+      "question": "What is the role of Joint Force Headquarters-Cyberspace (JFHQ-C)?",
+      "answer": "JFHQ-C commanders analyze, plan, and execute CO missions in support of CCDRs, focusing on refining intelligence requirements, providing tactical expertise, and integrating CO into CCDR plans and orders."
+    },
+    {
+      "question": "What is a CO-IPE?",
+      "answer": "A Cyberspace Operations-Integrated Planning Element (CO-IPE) integrates within a CCDR's CO support staff to provide CO expertise and reachback capability to USCYBERCOM."
+    },
+    {
+      "question": "What are the key federal laws that apply to DOD cyberspace operations?",
+      "answer": "Key laws include Title 10 USC (Armed Forces), Title 50 USC (War and National Defense), and Title 32 USC (National Guard)."
+    },
+    {
+      "question": "What legal principles from the law of war apply to cyberspace operations?",
+      "answer": "The law of war principles of military necessity, proportionality, distinction (discrimination), and avoidance of unnecessary suffering may apply to certain cyberspace operations."
+    },
+    {
+      "question": "Why is attribution challenging in cyberspace operations?",
+      "answer": "The most challenging aspect is connecting a particular cyber-persona or action to a named individual, group, or nation-state with sufficient confidence and verifiability due to the design of the Internet and applications intended to hide identity."
+    },
+    {
+      "question": "What is the relationship between cyberspace and the physical domains?",
+      "answer": "Cyberspace is dependent on the air, land, maritime, and space physical domains; CO use links and nodes located in physical domains to create effects first in cyberspace and then in physical domains."
+    },
+    {
+      "question": "Why is permanent global cyberspace superiority not achievable?",
+      "answer": "Due to the complexity of cyberspace, private ownership of large portions, broad array of state and non-state actors, low cost of entry, and rapid unpredictable proliferation of technology."
+    },
+    {
+      "question": "What is key terrain in cyberspace?",
+      "answer": "Key terrain in cyberspace is analogous to key terrain in physical domains in that holding it affords any combatant a position of marked advantage, including access points to major LOCs and launch points for cyberspace attacks."
+    },
+    {
+      "question": "What is the information environment?",
+      "answer": "The information environment is the aggregate of individuals, organizations, and systems that collect, process, disseminate, or act on information."
+    },
+    {
+      "question": "How does cyberspace relate to the information environment?",
+      "answer": "Cyberspace is wholly contained within the information environment, and the chief purpose of information operations is to create effects in the information environment."
+    },
+    {
+      "question": "What is platform information technology (PIT)?",
+      "answer": "PIT is the hardware and software that is physically part of, dedicated to, or essential in real time to the mission performance of special purpose systems, including weapon systems."
+    },
+    {
+      "question": "What types of threats exist in cyberspace?",
+      "answer": "Cyberspace threats include nation-states, non-state threats (criminal organizations, extremist organizations), individuals or small groups, and accidents and natural hazards."
+    },
+    {
+      "question": "Why are nation-state threats potentially the most dangerous in cyberspace?",
+      "answer": "Because of nation-state access to resources, personnel, and time that may not be available to other actors, allowing them to conduct sophisticated operations directly or through surrogates."
+    },
+    {
+      "question": "What challenges does geography present for cyberspace operations?",
+      "answer": "In cyberspace there is no stateless maneuver space, so when US military forces maneuver in foreign cyberspace, they may need to maneuver clandestinely without the knowledge of the state where infrastructure is located."
+    },
+    {
+      "question": "What technology challenges exist for cyberspace capabilities?",
+      "answer": "Using a cyberspace capability that relies on exploitation of technical vulnerabilities may reveal its functionality and compromise effectiveness for future missions."
+    },
+    {
+      "question": "What is the defense industrial base (DIB)?",
+      "answer": "The DIB is a sector including major contractors and support to operations that DOD partners with to increase security of information about DOD programs residing on or transiting DIB unclassified networks."
+    },
+    {
+      "question": "What role does DHS play in cyberspace security?",
+      "answer": "DHS has responsibility to secure US cyberspace at the national level by protecting non-DOD USG networks and is the lead federal agency for cyberspace incident asset response during significant cybersecurity incidents."
+    },
+    {
+      "question": "What is the FBI's role in cybersecurity?",
+      "answer": "The FBI is the lead agency for significant cybersecurity incident threat response activities (except those affecting DODIN or IC), conducts domestic collection and analysis of cybersecurity threat information, and operates the National Cyber Investigative Joint Task Force."
+    },
+    {
+      "question": "What is defense critical infrastructure (DCI)?",
+      "answer": "DCI is a subset of CI/KR that includes DOD and non-DOD assets essential to project, support, and sustain military forces and operations worldwide."
+    },
+    {
+      "question": "What are cascading effects in cyberspace operations?",
+      "answer": "Cascading effects ripple through a targeted system, sometimes traveling through subordinate systems, moving laterally to peer systems, or up to higher-level systems in ways that may have been unforeseen."
+    },
+    {
+      "question": "What are collateral effects in cyberspace operations?",
+      "answer": "Collateral effects are incidental effects of military operations on non-combatants and civilian property that were not the intended targets of the strike."
+    },
+    {
+      "question": "What is the difference between operator-reversible and non-operator-reversible effects?",
+      "answer": "Operator-reversible effects can be recalled, recovered, or terminated by friendly forces, while non-operator-reversible effects cannot be recalled after execution and may represent higher risk of undesired consequences."
+    },
+    {
+      "question": "What is cyberspace situational awareness?",
+      "answer": "Cyberspace situational awareness is the requisite current and predictive knowledge of cyberspace and the operational environment upon which CO depend, including all factors affecting friendly and adversary cyberspace forces."
+    },
+    {
+      "question": "How are intelligence requirements (IRs) used in cyberspace operations planning?",
+      "answer": "IRs are general or specific subjects upon which there is a need for collection of information or production of intelligence to fill identified gaps about the adversary and OE during mission analysis."
+    },
+    {
+      "question": "What is the intelligence gain/loss (IGL) consideration in cyberspace operations?",
+      "answer": "IGL assessment evaluates whether maneuver and fires in red and gray cyberspace could potentially compromise intelligence collection activities, sources, and methods."
+    },
+    {
+      "question": "What are the three physical network layer target features important for targeting?",
+      "answer": "The physical network layer includes wired and wireless transmission means and is a point of reference for determining geographic location and the applicable legal framework."
+    },
+    {
+      "question": "Why is the cyber-persona layer important for targeting?",
+      "answer": "The cyber-persona layer holds important implications for positive target identification, affiliation, and activity attribution, as it represents the aggregate of an individual's or group's online identities."
+    },
+    {
+      "question": "What is a time-sensitive target (TST) in cyberspace?",
+      "answer": "A TST is a validated target of such high priority that the commander designates it for immediate engagement because it poses a threat to friendly forces or is a highly lucrative, fleeting target."
+    },
+    {
+      "question": "What are the C2 relationships during routine cyberspace operations?",
+      "answer": "CDRUSCYBERCOM has COCOM of all GFMIG-assigned cyberspace forces and support relationships with all other CCDRs; JFHQ-DODIN has TACON of SCC commands for DODIN operations and DCO-IDM."
+    },
+    {
+      "question": "What is a mission-tailored force package (MTFP)?",
+      "answer": "An MTFP is a USCYBERCOM-tailored support capability comprised of assigned CO forces, additional support personnel, and cyberspace capabilities provided to support specific CCMD crisis or contingency mission requirements."
+    },
+    {
+      "question": "What is the purpose of cyberspace deconfliction?",
+      "answer": "Cyberspace deconfliction coordinates employment of cyberspace capabilities with applicable DOD, interagency, and multinational partners to ensure operations do not interfere, inhibit, or conflict with each other."
+    },
+    {
+      "question": "How do cyberspace operations relate to electronic warfare?",
+      "answer": "Cyberspace attack, electronic attack, and offensive space control are deconflicted to maximize impact; uncoordinated EA may significantly impact EMS-enabled cyberspace attack actions."
+    },
+    {
+      "question": "What is the purpose of cyberspace operations assessment?",
+      "answer": "Assessment measures progress of the joint force toward mission accomplishment by comparing forecasted effects with actual outcomes to determine overall effectiveness of cyberspace force employment."
+    },
+    {
+      "question": "What are measures of effectiveness (MOEs) in cyberspace operations?",
+      "answer": "MOEs assess changes in targeted system behavior or the OE, measuring progress toward attainment of an end state, achievement of an objective, or creation of an effect."
+    },
+    {
+      "question": "What are measures of performance (MOPs) in cyberspace operations?",
+      "answer": "MOPs are criteria for measuring task performance or accomplishment, generally quantitative, used in combat assessment to determine accomplishment of tactical tasks."
+    },
+    {
+      "question": "Why are insider threats a significant concern for cyberspace operations?",
+      "answer": "Because insiders have trusted relationships with access to the DODIN, the effects of their malicious or careless activity can be far more serious than those of external threat actors."
+    },
+    {
+      "question": "What is the role of NSA/CSS in cyberspace operations?",
+      "answer": "NSA/CSS provides signals intelligence support and cybersecurity guidance and assistance to DOD components and national customers, including target development assistance and threat analysis."
+    },
+    {
+      "question": "What is the role of the Defense Intelligence Agency in cyberspace operations?",
+      "answer": "DIA provides timely military intelligence to warfighters and planners, conducts all-source analysis in support of CO, and serves as the DOD focal point for all CI cyberspace investigations and operations."
+    },
+    {
+      "question": "What is the DC3's role in cyberspace operations?",
+      "answer": "DC3 provides digital and multimedia forensics, cyberspace investigative training, and serves as the operational focal point for DIB cyberspace security information sharing activities."
+    },
+    {
+      "question": "What considerations exist for multinational cyberspace operations?",
+      "answer": "Considerations include differing national agendas, varying legal standards and interpretations, nations requiring approval from higher authority, and security restrictions that may prevent full disclosure of CO plans."
+    },
+    {
+      "question": "What are cyberspace-enabled activities?",
+      "answer": "Cyberspace-enabled activities are actions that employ cyberspace capabilities to complete tasks but are not undertaken as part of one of the three CO missions (OCO, DCO, or DODIN operations)."
+    },
+    {
+      "question": "What determines whether a cyberspace mission is OCO, DCO, or DODIN operations?",
+      "answer": "Cyberspace missions are categorized based only on the intent or objective of the issuing authority, not based on the cyberspace actions executed, type of authority used, forces assigned, or capabilities used."
+    },
+    {
+      "question": "What is the relationship between space operations and cyberspace?",
+      "answer": "Virtually all space operations depend on cyberspace, and a critical portion of cyberspace bandwidth can only be provided via space operations, which provide a key global connectivity option for CO."
+    },
+    {
+    "question": "What are the five pillars of the 2023 National Cybersecurity Strategy?",
+    "answer": "The five pillars are: (1) Defend Critical Infrastructure, (2) Disrupt and Dismantle Threat Actors, (3) Shape Market Forces to Drive Security and Resilience, (4) Invest in a Resilient Future, and (5) Forge International Partnerships to Pursue Shared Goals."
+  },
+  {
+    "question": "What are the two fundamental shifts the National Cybersecurity Strategy seeks to make?",
+    "answer": "The strategy seeks to rebalance the responsibility to defend cyberspace by placing more burden on capable actors, and realign incentives to favor long-term investments in security and resilience."
+  },
+  {
+    "question": "According to the National Cybersecurity Strategy, which country presents the broadest and most persistent threat to government and private sector networks?",
+    "answer": "The People's Republic of China (PRC) presents the broadest, most active, and most persistent threat to both government and private sector networks."
+  },
+  {
+    "question": "What is the goal of the National Cybersecurity Strategy regarding the digital ecosystem?",
+    "answer": "The goal is a defensible, resilient digital ecosystem where it is costlier to attack systems than defend them, where sensitive information is secure, and where incidents do not cascade into catastrophic consequences."
+  },
+  {
+    "question": "What role does CISA play in critical infrastructure security according to the National Cybersecurity Strategy?",
+    "answer": "CISA is the national coordinator for critical infrastructure security and resilience, coordinating with Sector Risk Management Agencies (SRMAs) to scale Federal coordination with critical infrastructure owners and operators."
+  },
+  {
+    "question": "What is the Joint Cyber Defense Collaborative (JCDC)?",
+    "answer": "The JCDC is established at CISA to integrate cyber defense planning and operations across the Federal Government and with the private sector and international partners."
+  },
+  {
+    "question": "What is the National Cyber Investigative Joint Task Force (NCIJTF)?",
+    "answer": "The NCIJTF is a multi-agency focal point for coordinating whole-of-government disruption campaigns against cyber threat actors, with strengthened capabilities for coordinating law enforcement and other disruption actions."
+  },
+  {
+    "question": "What is the purpose of the Cyber Incident Reporting for Critical Infrastructure Act of 2022 (CIRCIA)?",
+    "answer": "CIRCIA requires covered entities in critical infrastructure sectors to report covered cyber incidents to CISA within hours, enhancing awareness and ability to respond effectively to incidents."
+  },
+  {
+    "question": "What is the Cyber Safety Review Board (CSRB)?",
+    "answer": "The CSRB brings together public and private sector cybersecurity leaders to review major cyber incidents, conduct authoritative fact-finding, generate insights for industry remediations, and provide recommendations for improving national cybersecurity."
+  },
+  {
+    "question": "What approach does the National Cybersecurity Strategy take toward Federal system modernization?",
+    "answer": "The strategy drives long-term efforts to defend the Federal enterprise and modernize Federal systems in accordance with zero trust principles that acknowledge threats must be countered both inside and outside traditional network boundaries."
+  },
+  {
+    "question": "What are Sector Risk Management Agencies (SRMAs)?",
+    "answer": "SRMAs have day-to-day responsibility and sector-specific expertise to improve security and resilience within their sectors, supporting individual owners and operators in protecting their systems and assets."
+  },
+  {
+    "question": "What is the Counter-Ransomware Initiative (CRI)?",
+    "answer": "The CRI is a White House-convened international initiative with more than thirty countries that conducts global exercises to build resilience and launched an international counter ransomware task force to share information about ransomware actors and infrastructure."
+  },
+  {
+    "question": "What is the Joint Ransomware Task Force (JRTF)?",
+    "answer": "The JRTF, co-chaired by CISA and the FBI, coordinates, deconflicts, and synchronizes existing interagency efforts to disrupt ransomware operations and provides support to private sector and SLTT efforts to increase protections."
+  },
+  {
+    "question": "What four lines of effort does the National Cybersecurity Strategy outline for countering ransomware?",
+    "answer": "The four lines are: leveraging international cooperation, investigating crimes and disrupting infrastructure, bolstering critical infrastructure resilience, and addressing abuse of virtual currency to launder ransom payments."
+  },
+  {
+    "question": "What does the National Cybersecurity Strategy say about software liability?",
+    "answer": "The strategy calls for shifting liability onto entities that fail to take reasonable precautions to secure their software, placing responsibility on stakeholders most capable of preventing bad outcomes rather than end-users."
+  },
+  {
+    "question": "What is the purpose of the Civil Cyber-Fraud Initiative (CCFI)?",
+    "answer": "The CCFI uses DOJ authorities under the False Claims Act to pursue civil actions against government grantees and contractors who fail to meet cybersecurity obligations, including those providing deficient products or misrepresenting practices."
+  },
+  {
+    "question": "What does the National Cybersecurity Strategy say about a Federal cyber insurance backstop?",
+    "answer": "The Administration will assess the need for and possible structures of a Federal insurance response to catastrophic cyber events that would support the existing cyber insurance market."
+  },
+  {
+    "question": "What is the strategy's position on IoT security?",
+    "answer": "The strategy calls for advancing IoT security labeling programs so consumers can compare cybersecurity protections offered by different IoT products, creating market incentives for greater security across the IoT ecosystem."
+  },
+  {
+    "question": "What does National Security Memorandum 10 (NSM-10) address?",
+    "answer": "NSM-10, 'Promoting United States Leadership in Quantum Computing While Mitigating Risks to Vulnerable Cryptographic Systems,' establishes a process for timely transition of the country's cryptographic systems to quantum-resistant cryptography."
+  },
+  {
+    "question": "What is the National Cybersecurity Strategy's approach to the cyber workforce?",
+    "answer": "ONCD will lead development and implementation of a National Cyber Workforce and Education Strategy taking a comprehensive approach to expanding the workforce, improving diversity, and increasing access to cyber educational pathways."
+  },
+  {
+    "question": "What is the Declaration for the Future of the Internet (DFI)?",
+    "answer": "The DFI is a coalition launched by the United States and 60 countries around a common, democratic vision for an open, free, global, interoperable, reliable, and secure digital future."
+  },
+  {
+    "question": "How does the National Cybersecurity Strategy view Russia's cyber threat?",
+    "answer": "Russia remains a persistent cyber threat that refines its cyber espionage, attack, influence, and disinformation capabilities to coerce sovereign countries, harbor transnational criminals, weaken U.S. alliances, and subvert the rules-based international system."
+  },
+  {
+    "question": "What cyber threats do Iran and North Korea pose according to the strategy?",
+    "answer": "Iran uses cyber capabilities to threaten U.S. allies in the Middle East, while North Korea conducts cyber activities including cryptocurrency theft and ransomware to generate revenue for its nuclear program."
+  },
+  {
+    "question": "What does the strategy say about minimum cybersecurity requirements for critical infrastructure?",
+    "answer": "Regulations should be performance-based, leverage existing cybersecurity frameworks like CISA's Cybersecurity Performance Goals and NIST Framework, and be agile enough to adapt as adversaries increase capabilities."
+  },
+  {
+    "question": "What is DoD's 'defending forward' approach?",
+    "answer": "Defending forward helps generate insights on threat actors, identify and expose malware, and disrupt malicious activity before it could affect its intended targets."
+  },
+  {
+    "question": "What role does the Cyber Threat Intelligence Integration Center (CTIIC) play?",
+    "answer": "CTIIC coordinates intelligence collection, analysis, and partnerships to support cybersecurity efforts across the Federal Government."
+  },
+  {
+    "question": "What is the National Cyber Incident Response Plan (NCIRP)?",
+    "answer": "The NCIRP is a subordinate plan to Presidential Policy Directive 41 that will be updated to strengthen processes, procedures, and systems so that 'a call to one is a call to all' during cyber incidents."
+  },
+  {
+    "question": "What is the strategy's position on paying ransoms?",
+    "answer": "The Administration strongly discourages the payment of ransoms, but victims should report incidents to law enforcement regardless of whether they pay."
+  },
+  {
+    "question": "What is the strategy's approach to personal data protection?",
+    "answer": "The strategy supports legislative efforts to impose robust limits on the ability to collect, use, transfer, and maintain personal data and provide strong protections for sensitive data like geolocation and health information."
+  },
+  {
+    "question": "What is the Energy Threat Analysis Center (ETAC)?",
+    "answer": "ETAC is a DOE operational collaboration model pilot that enables timely, actionable, and relevant information sharing directly with private sector partners in the energy sector."
+  },
+  {
+    "question": "What does ONCD do in implementing the National Cybersecurity Strategy?",
+    "answer": "ONCD coordinates implementation of the strategy under NSC oversight, works with interagency partners to develop implementation plans, and assesses effectiveness annually."
+  },
+  {
+    "question": "What is the strategy's approach to standards development?",
+    "answer": "The U.S. will engage in standards development processes to ensure technical standards produce more secure and resilient technologies while countering autocratic regimes seeking government control of the Internet."
+  },
+  {
+    "question": "What are Information Sharing and Analysis Centers (ISACs)?",
+    "answer": "ISACs are sector-focused organizations that facilitate cyber defense operations across vast and complex critical infrastructure sectors."
+  },
+  {
+    "question": "What is the Federal zero trust architecture strategy?",
+    "answer": "The OMB zero trust architecture strategy directs Federal agencies to implement multi-factor authentication, encrypt data, gain visibility into attack surfaces, manage authorization and access, and adopt cloud security tools."
+  },
+  {
+    "question": "What international partnerships does the strategy reference for cybersecurity cooperation?",
+    "answer": "Partnerships include the Quad (U.S., India, Japan, Australia), Indo-Pacific Economic Framework (IPEF), U.S.-EU Trade and Technology Council (TTC), AUKUS, and NATO."
+  },
+  {
+    "question": "What is the Christchurch Call to Action?",
+    "answer": "The Christchurch Call to Action is a multistakeholder partnership including private sector and civil society organizations focused on eliminating terrorist and violent extremist content online."
+  },
+  {
+    "question": "What is the strategy's view on digital identity?",
+    "answer": "The Federal Government will encourage investments in strong, verifiable digital identity solutions that promote security, accessibility, interoperability, financial inclusion, consumer privacy, and economic growth."
+  },
+  {
+    "question": "What does the strategy say about Software Bills of Materials (SBOMs)?",
+    "answer": "The strategy promotes further development of SBOMs and developing processes for identifying and mitigating risk from unsupported software that is widely used or supports critical infrastructure."
+  },
+  {
+    "question": "What is the Clean Energy Cybersecurity Accelerator (CECA)?",
+    "answer": "CECA is a DOE effort leading the government's work to secure the clean energy grid of the future and generate security best practices extending to other critical infrastructure sectors."
+  },
+  {
+    "question": "What did Russia's 2017 NotPetya attack demonstrate about cyber risks?",
+    "answer": "NotPetya demonstrated how an attack on one organization can rapidly spill over to other sectors and regions, spreading across Europe, Asia, and the Americas, causing billions of dollars in damage."
+  },
+  {
+    "question": "What is the NSA Cybersecurity Collaboration Center?",
+    "answer": "The NSA Cybersecurity Collaboration Center provides national intelligence-driven engagement with industry that has been highly effective at disrupting adversary activity targeting the Defense Industrial Base."
+  },
+  {
+    "question": "What approach does the strategy take to regulatory harmonization?",
+    "answer": "ONCD, in coordination with OMB, will lead efforts on cybersecurity regulatory harmonization, while the Cyber Incident Reporting Council will coordinate and harmonize Federal incident reporting requirements."
+  },
+  {
+    "question": "What is the National Cyber-Forensics and Training Alliance (NCFTA)?",
+    "answer": "NCFTA is referenced as a nonprofit organization that can serve as a hub for operational collaboration between the private sector and Federal Government for disruption efforts."
+  },
+  {
+    "question": "What executive order established the CSRB?",
+    "answer": "The Cyber Safety Review Board was established by Executive Order 14028, 'Improving the Nation's Cybersecurity.'"
+  },
+  {
+    "question": "What does the strategy say about critical infrastructure cybersecurity regulation?",
+    "answer": "The Federal Government will use existing authorities to set cybersecurity requirements in critical sectors and work with Congress to close gaps in statutory authorities where needed."
+  },
+  {
+    "question": "What is the Defense Industrial Base Collaborative Information Sharing Environment (DCISE)?",
+    "answer": "DCISE is a DoD operational collaboration model that provides opportunities for timely, actionable, and relevant information sharing directly with private sector partners in the defense sector."
+  },
+  {
+    "question": "What is the strategy's approach to secure software development?",
+    "answer": "The strategy supports development of an adaptable safe harbor framework to shield companies that securely develop and maintain software, drawing from best practices like the NIST Secure Software Development Framework."
+  },
+  {
+    "question": "What does the National Cybersecurity Strategy say about cloud computing?",
+    "answer": "The Administration will identify gaps in authorities to drive better cybersecurity practices in cloud computing and work with industry, Congress, and regulators to close them."
+  },
+  {
+    "question": "What is EO 13984 about?",
+    "answer": "EO 13984, 'Taking Additional Steps to Address the National Emergency with Respect to Significant Malicious Cyber-Enabled Activities,' makes it harder for adversaries to abuse U.S.-based infrastructure."
+  },
+  {
+    "question": "What does the strategy say about malicious use of U.S.-based infrastructure?",
+    "answer": "Malicious actors exploit U.S.-based cloud infrastructure, domain registrars, hosting providers, and other digital services, often through foreign resellers, hindering providers' ability to address abuse."
+  },
+    {
+    "question": "What are the six core functions of the NIST Cybersecurity Framework 2.0?",
+    "answer": "The six core functions are Govern, Identify, Protect, Detect, Respond, and Recover."
+  },
+  {
+    "question": "What is new in NIST CSF 2.0 compared to version 1.1?",
+    "answer": "CSF 2.0 introduces a new Govern function, expands the scope to all organizations regardless of size or sector, and provides improved implementation guidance including quick-start guides."
+  },
+  {
+    "question": "What is the purpose of the Govern function in NIST CSF 2.0?",
+    "answer": "The Govern function establishes and monitors the organization's cybersecurity risk management strategy, expectations, and policy, emphasizing that cybersecurity is a major enterprise risk."
+  },
+  {
+    "question": "What are the four tiers in NIST CSF 2.0?",
+    "answer": "The four tiers are Tier 1 (Partial), Tier 2 (Risk-Informed), Tier 3 (Repeatable), and Tier 4 (Adaptive), characterizing the rigor of an organization's cybersecurity risk governance and management practices."
+  },
+  {
+    "question": "What is the purpose of CSF Organizational Profiles?",
+    "answer": "CSF Organizational Profiles describe an organization's current and/or target cybersecurity posture in terms of the CSF Core's outcomes, helping set priorities for managing cybersecurity risks."
+  },
+  {
+    "question": "What does the Identify function in NIST CSF address?",
+    "answer": "The Identify function addresses understanding the organization's current cybersecurity risks, including asset management, risk assessment, and the business environment."
+  },
+  {
+    "question": "What does the Protect function in NIST CSF address?",
+    "answer": "The Protect function addresses safeguards to manage the organization's cybersecurity risks, including access control, awareness training, data security, and protective technology."
+  },
+  {
+    "question": "What does the Detect function in NIST CSF address?",
+    "answer": "The Detect function addresses finding and analyzing possible cybersecurity attacks and compromises through continuous monitoring and detection processes."
+  },
+  {
+    "question": "What does the Respond function in NIST CSF address?",
+    "answer": "The Respond function addresses taking action regarding a detected cybersecurity incident, including response planning, communications, analysis, mitigation, and improvements."
+  },
+  {
+    "question": "What does the Recover function in NIST CSF address?",
+    "answer": "The Recover function addresses restoring capabilities or services impaired by a cybersecurity incident, including recovery planning, improvements, and communications."
+  },
+  {
+    "question": "What are Informative References in the NIST CSF?",
+    "answer": "Informative References are materials from other publications that provide implementation guidance to achieve CSF outcomes, linking to existing standards, guidelines, and frameworks."
+  },
+  {
+    "question": "What are Implementation Examples in NIST CSF 2.0?",
+    "answer": "Implementation Examples illustrate potential ways to achieve each CSF outcome, providing action-oriented guidance for organizations implementing the framework."
+  },
+  {
+    "question": "What is the CSF Core?",
+    "answer": "The CSF Core is a taxonomy of high-level cybersecurity outcomes organized as a hierarchy of Functions, Categories, and Subcategories that can help any organization manage cybersecurity risks."
+  },
+  {
+    "question": "How does NIST CSF 2.0 relate to other cybersecurity frameworks?",
+    "answer": "NIST CSF 2.0 pre-maps to frameworks like NIST SP 800-53, CIS Controls, Cloud Control Matrix, and others, helping organizations streamline compliance across multiple standards."
+  },
+  {
+    "question": "What is the relationship between NIST CSF and NIST SP 800-53?",
+    "answer": "NIST SP 800-53 provides detailed security and privacy controls, while the CSF provides higher-level outcomes; the CSF maps to SP 800-53 controls through Informative References."
+  },
+  {
+    "question": "What is zero trust architecture?",
+    "answer": "Zero trust architecture is a security model that requires strict identity verification for every person and device accessing resources, assuming no implicit trust based on network location."
+  },
+  {
+    "question": "What are the key principles of zero trust?",
+    "answer": "Key principles include never trust always verify, assume breach, verify explicitly, use least privilege access, and apply micro-segmentation."
+  },
+  {
+    "question": "What is defense in depth?",
+    "answer": "Defense in depth is a security strategy using multiple layers of security controls throughout an information system so that if one layer fails, others remain to protect assets."
+  },
+  {
+    "question": "What is the principle of least privilege?",
+    "answer": "The principle of least privilege restricts access rights for users, accounts, and computing processes to only those resources absolutely required to perform legitimate functions."
+  },
+  {
+    "question": "What is multi-factor authentication (MFA)?",
+    "answer": "Multi-factor authentication requires users to provide two or more verification factors to gain access, combining something you know, something you have, and something you are."
+  },
+  {
+    "question": "What is a Software Bill of Materials (SBOM)?",
+    "answer": "An SBOM is a formal record containing details and supply chain relationships of components used in building software, enabling organizations to identify vulnerabilities in their software."
+  },
+  {
+    "question": "What is supply chain risk management in cybersecurity?",
+    "answer": "Supply chain risk management identifies, assesses, and mitigates risks from the acquisition and use of products and services from external suppliers that could affect an organization's cybersecurity."
+  },
+  {
+    "question": "What is the NIST Risk Management Framework (RMF)?",
+    "answer": "The NIST RMF provides a disciplined, structured process to manage security and privacy risks, integrating security activities into the system development lifecycle through seven steps."
+  },
+  {
+    "question": "What are the seven steps of the NIST Risk Management Framework?",
+    "answer": "The seven steps are Prepare, Categorize, Select, Implement, Assess, Authorize, and Monitor."
+  },
+  {
+    "question": "What is FISMA?",
+    "answer": "The Federal Information Security Modernization Act (FISMA) requires federal agencies to develop, document, and implement information security programs to protect government information and systems."
+  },
+  {
+    "question": "What is FedRAMP?",
+    "answer": "The Federal Risk and Authorization Management Program (FedRAMP) is a government-wide program providing a standardized approach to security assessment, authorization, and monitoring for cloud services."
+  },
+  {
+    "question": "What is continuous monitoring in cybersecurity?",
+    "answer": "Continuous monitoring maintains ongoing awareness of information security, vulnerabilities, and threats to support organizational risk management decisions through automated tools and processes."
+  },
+  {
+    "question": "What is an incident response plan?",
+    "answer": "An incident response plan is a documented set of procedures describing the actions an organization takes to detect, respond to, and limit consequences of a cybersecurity incident."
+  },
+  {
+    "question": "What are the phases of incident response?",
+    "answer": "The phases are typically Preparation, Detection and Analysis, Containment Eradication and Recovery, and Post-Incident Activity."
+  },
+  {
+    "question": "What is threat intelligence?",
+    "answer": "Threat intelligence is evidence-based knowledge about existing or emerging threats, including context, mechanisms, indicators, implications, and actionable advice to inform decisions."
+  },
+  {
+    "question": "What are indicators of compromise (IOCs)?",
+    "answer": "Indicators of compromise are forensic data that identify potentially malicious activity on a system or network, such as unusual network traffic, suspicious file hashes, or known malicious IP addresses."
+  },
+  {
+    "question": "What is the MITRE ATT&CK framework?",
+    "answer": "MITRE ATT&CK is a knowledge base of adversary tactics and techniques based on real-world observations, used for developing threat models and methodologies in cybersecurity."
+  },
+  {
+    "question": "What is vulnerability management?",
+    "answer": "Vulnerability management is the cyclical practice of identifying, classifying, prioritizing, remediating, and mitigating software vulnerabilities in systems and applications."
+  },
+  {
+    "question": "What is penetration testing?",
+    "answer": "Penetration testing is a simulated cyberattack against a system to check for exploitable vulnerabilities, evaluating the security of IT infrastructure using authorized attempts to breach security."
+  },
+  {
+    "question": "What is the difference between vulnerability assessment and penetration testing?",
+    "answer": "Vulnerability assessment identifies vulnerabilities and prioritizes remediation, while penetration testing actively exploits vulnerabilities to determine real-world impact of a breach."
+  },
+  {
+    "question": "What is security information and event management (SIEM)?",
+    "answer": "SIEM combines security information management and security event management, providing real-time analysis of security alerts from applications and network hardware."
+  },
+  {
+    "question": "What is an advanced persistent threat (APT)?",
+    "answer": "An APT is a prolonged and targeted cyberattack where an intruder gains network access and remains undetected for an extended period, typically sponsored by nation-states."
+  },
+  {
+    "question": "What is phishing?",
+    "answer": "Phishing is a social engineering attack that attempts to trick users into revealing sensitive information or installing malware through deceptive emails, messages, or websites."
+  },
+  {
+    "question": "What is spear phishing?",
+    "answer": "Spear phishing is a targeted phishing attack directed at specific individuals or organizations, using personalized information to increase credibility and success rate."
+  },
+  {
+    "question": "What is ransomware?",
+    "answer": "Ransomware is malware that encrypts a victim's files or systems and demands payment for the decryption key, often threatening to publish stolen data if ransom is not paid."
+  },
+  {
+    "question": "What is a denial-of-service (DoS) attack?",
+    "answer": "A denial-of-service attack attempts to make a machine or network resource unavailable by overwhelming it with traffic or sending information that triggers a crash."
+  },
+  {
+    "question": "What is a distributed denial-of-service (DDoS) attack?",
+    "answer": "A DDoS attack uses multiple compromised systems, often forming a botnet, to flood a target with traffic from many sources, making it harder to stop than a single-source attack."
+  },
+  {
+    "question": "What is a botnet?",
+    "answer": "A botnet is a network of compromised computers controlled remotely by an attacker, used to conduct DDoS attacks, send spam, steal data, or perform other malicious activities."
+  },
+  {
+    "question": "What is malware?",
+    "answer": "Malware is malicious software designed to damage, disrupt, or gain unauthorized access to computer systems, including viruses, worms, trojans, ransomware, and spyware."
+  },
+  {
+    "question": "What is a zero-day vulnerability?",
+    "answer": "A zero-day vulnerability is a software flaw unknown to the vendor and for which no patch exists, giving attackers the opportunity to exploit it before defenses can be developed."
+  },
+  {
+    "question": "What is encryption?",
+    "answer": "Encryption is the process of converting data into a coded format to prevent unauthorized access, using algorithms and keys to transform plaintext into ciphertext."
+  },
+  {
+    "question": "What is the difference between symmetric and asymmetric encryption?",
+    "answer": "Symmetric encryption uses the same key for encryption and decryption, while asymmetric encryption uses a public key for encryption and a private key for decryption."
+  },
+  {
+    "question": "What is public key infrastructure (PKI)?",
+    "answer": "PKI is a framework of policies, procedures, hardware, software, and people to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption."
+  },
+  {
+    "question": "What is network segmentation?",
+    "answer": "Network segmentation divides a network into smaller parts to improve security and performance, limiting lateral movement of attackers and containing potential breaches."
+  },
+  {
+    "question": "What is a firewall?",
+    "answer": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules, establishing a barrier between trusted and untrusted networks."
+  },
+  {
+    "question": "What is an intrusion detection system (IDS)?",
+    "answer": "An IDS monitors network traffic for suspicious activity and known threats, alerting security personnel when potential attacks are detected."
+  },
+  {
+    "question": "What is an intrusion prevention system (IPS)?",
+    "answer": "An IPS monitors network traffic like an IDS but also takes automated actions to block or prevent detected threats in real-time."
+  },
+  {
+    "question": "What is endpoint detection and response (EDR)?",
+    "answer": "EDR solutions monitor endpoints for threats, record and store endpoint behavior, use data analytics to detect suspicious activity, and provide remediation capabilities."
+  },
+  {
+    "question": "What is security orchestration, automation and response (SOAR)?",
+    "answer": "SOAR refers to technologies that enable organizations to collect security threat data, automate threat response, and streamline security operations through integrated workflows."
+  },
+  {
+    "question": "What is data loss prevention (DLP)?",
+    "answer": "DLP is a set of tools and processes to ensure sensitive data is not lost, misused, or accessed by unauthorized users, monitoring data in motion, at rest, and in use."
+  },
+  {
+    "question": "What is identity and access management (IAM)?",
+    "answer": "IAM is a framework of policies and technologies ensuring the right individuals access the right resources at the right times for the right reasons."
+  },
+  {
+    "question": "What is privileged access management (PAM)?",
+    "answer": "PAM is a subset of IAM focusing on securing, controlling, and monitoring access to privileged accounts that have elevated permissions within an organization."
+  },
+  {
+    "question": "What is single sign-on (SSO)?",
+    "answer": "SSO is an authentication process allowing users to access multiple applications with one set of credentials, reducing password fatigue and improving user experience."
+  },
+  {
+    "question": "What is security awareness training?",
+    "answer": "Security awareness training educates employees about cybersecurity threats and best practices, helping them recognize and respond appropriately to potential security incidents."
+  },
+  {
+    "question": "What is a security operations center (SOC)?",
+    "answer": "A SOC is a centralized unit dealing with security issues on organizational and technical levels, staffed by analysts who monitor, detect, analyze, and respond to security incidents."
+  },
+  {
+    "question": "What is business continuity planning?",
+    "answer": "Business continuity planning develops strategies and procedures to ensure critical business functions continue during and after a disaster or disruption."
+  },
+  {
+    "question": "What is disaster recovery?",
+    "answer": "Disaster recovery involves policies, tools, and procedures to enable recovery of critical technology infrastructure and systems following a natural or human-induced disaster."
+  },
+  {
+    "question": "What is the recovery time objective (RTO)?",
+    "answer": "RTO is the maximum acceptable time that a system, application, or function can be offline after a failure or disaster before the impact becomes unacceptable."
+  },
+  {
+    "question": "What is the recovery point objective (RPO)?",
+    "answer": "RPO is the maximum acceptable amount of data loss measured in time, indicating how much data can be lost before significant harm occurs."
+  },
+  {
+    "question": "What is patch management?",
+    "answer": "Patch management is the process of identifying, acquiring, installing, and verifying patches for products and systems to fix security vulnerabilities and improve functionality."
+  },
+  {
+    "question": "What is configuration management?",
+    "answer": "Configuration management maintains computer systems, servers, and software in a desired, consistent state, helping ensure systems perform as expected and are secure."
+  },
+  {
+    "question": "What is change management in cybersecurity?",
+    "answer": "Change management is a systematic approach to dealing with transitions or transformations of an organization's systems, minimizing disruptions and security risks."
+  },
+  {
+    "question": "What is asset management in cybersecurity?",
+    "answer": "Asset management involves creating and maintaining an inventory of all hardware, software, and data assets to understand what needs protection and ensure proper security controls."
+  },
+  {
+    "question": "What is the shared responsibility model in cloud security?",
+    "answer": "The shared responsibility model defines security obligations between cloud providers and customers, with providers securing infrastructure and customers securing their data and applications."
+  },
+  {
+    "question": "What is cloud access security broker (CASB)?",
+    "answer": "A CASB is a security policy enforcement point between cloud service users and providers, enforcing security policies for cloud application access."
+  },
+  {
+    "question": "What is secure software development lifecycle (SSDLC)?",
+    "answer": "SSDLC integrates security practices throughout the software development process, from planning through deployment and maintenance, to build secure applications."
+  },
+  {
+    "question": "What is DevSecOps?",
+    "answer": "DevSecOps integrates security practices into the DevOps process, making security a shared responsibility throughout the entire IT lifecycle rather than an afterthought."
+  },
+  {
+    "question": "What is threat modeling?",
+    "answer": "Threat modeling is a structured approach for identifying potential threats and vulnerabilities, evaluating the severity of each threat, and prioritizing security mitigations."
+  },
+    {
+    "question": "What is Title 10 USC primarily about in the context of cyberspace?",
+    "answer": "Title 10 USC (Armed Forces) provides authority for DOD to man, train, and equip US forces for military operations in cyberspace."
+  },
+  {
+    "question": "What does Title 50 USC cover regarding cyberspace?",
+    "answer": "Title 50 USC (War and National Defense) provides authority for securing US interests by conducting military and foreign intelligence operations in cyberspace."
+  },
+  {
+    "question": "What is Title 32 USC's role in cyberspace operations?",
+    "answer": "Title 32 USC (National Guard) provides authority for National Guard training and operations in the US, including domestic consequence management for cyber incidents."
+  },
+  {
+    "question": "What is the purpose of Presidential Policy Directive 41 (PPD-41)?",
+    "answer": "PPD-41, United States Cyber Incident Coordination, defines lead roles for DOJ, DHS, and ODNI in threat, asset, and intelligence response efforts during cyber incidents."
+  },
+  {
+    "question": "What is Executive Order 14028 about?",
+    "answer": "EO 14028, Improving the Nation's Cybersecurity, established requirements for Federal cybersecurity improvements including zero trust architecture, software supply chain security, and the CSRB."
+  },
+  {
+    "question": "What are cybersecurity protection teams (CPTs)?",
+    "answer": "CPTs are organized, trained, and equipped teams that defend assigned cyberspace in coordination with segment owners, cybersecurity service providers, and users."
+  },
+  {
+    "question": "What are national mission teams (NMTs)?",
+    "answer": "NMTs are part of the Cyber National Mission Force that conducts operations to defeat significant cyberspace threats to the DODIN and the nation."
+  },
+  {
+    "question": "What are combat mission teams (CMTs)?",
+    "answer": "CMTs are part of the Cyber Combat Mission Force that conducts cyberspace operations to support geographic and functional combatant commander missions and plans."
+  },
+  {
+    "question": "What is a cybersecurity service provider (CSSP)?",
+    "answer": "A CSSP is an organization established by the Services and DOD agencies to provide DODIN protection services under support agreements with system owners."
+  },
+  {
+    "question": "What is the operational environment (OE) in cyberspace?",
+    "answer": "The OE is a composite of the conditions, circumstances, and influences that affect the employment of capabilities and impact the decisions of the commander assigned responsibility."
+  },
+  {
+    "question": "What is the relationship between cyberspace and the electromagnetic spectrum (EMS)?",
+    "answer": "CO from moving platforms require transmission through the EMS, which can be affected by congestion, atmospheric conditions, and enemy electronic attack."
+  },
+  {
+    "question": "What is joint electromagnetic spectrum operations (JEMSO)?",
+    "answer": "JEMSO coordinates elements of CO, space operations, electronic warfare, navigation warfare, and EMS-dependent information collection and C2."
+  },
+  {
+    "question": "What are rules of engagement (ROE) in cyberspace operations?",
+    "answer": "ROE are directives that delineate circumstances and limitations under which cyberspace forces will initiate and continue engagement with adversaries."
+  },
+  {
+    "question": "What is operational preparation of the environment (OPE) in cyberspace?",
+    "answer": "OPE includes cyberspace exploitation activities to gain intelligence and prepare for future operations through gaining access to networks and positioning capabilities."
+  },
+  {
+    "question": "What is the joint targeting cycle?",
+    "answer": "The joint targeting cycle is the process of selecting and prioritizing targets and matching appropriate responses, including integration of cyberspace attack capabilities."
+  },
+  {
+    "question": "What is the joint target list (JTL)?",
+    "answer": "The JTL is a consolidated list of selected targets with assigned priorities, used to coordinate and deconflict fires across all domains including cyberspace."
+  },
+  {
+    "question": "What is battle damage assessment (BDA) in cyberspace?",
+    "answer": "BDA in cyberspace assesses physical, functional, and target system components to determine the effectiveness of cyberspace attacks, though effects often do not create physical damage."
+  },
+  {
+    "question": "What are external countermeasures in cyberspace?",
+    "answer": "External countermeasures are actions taken outside defended cyberspace as part of DCO-RA or OCO missions to degrade the effectiveness of adversary sensors or defenses."
+  },
+  {
+    "question": "What are internal countermeasures in cyberspace?",
+    "answer": "Internal countermeasures are cyberspace defense actions taken as part of DCO-IDM missions within the defended network, such as closing router ports used by adversaries."
+  },
+  {
+    "question": "What is malicious cyberspace activity?",
+    "answer": "Malicious cyberspace activity is the generic term for adversary actions in cyberspace when their mission objectives and commander's intent are not known with certainty."
+  },
+  {
+    "question": "What is a common operational picture (COP) in cyberspace?",
+    "answer": "A COP for cyberspace requires rapid fusion, correlation, and display of data from global network sensors to deliver a reliable picture of friendly, neutral, adversary, and enemy activity."
+  },
+  {
+    "question": "What is reach-forward in cyberspace operations?",
+    "answer": "Reach-forward allows cyberspace forces operating under JFHQ-DODIN and CNMF-HQ to support multiple CCMDs simultaneously, enabling faster adaptation and global threat mitigation."
+  },
+  {
+    "question": "What is reachback in cyberspace operations?",
+    "answer": "Reachback enables CCMDs to receive timely and effective support from USCYBERCOM and its subordinate units to augment expertise and capacity of the supported commander."
+  },
+  {
+    "question": "What is the National Infrastructure Protection Plan (NIPP)?",
+    "answer": "The NIPP designates DOD as the sector-specific agency for the Defense Industrial Base and provides frameworks for protecting critical infrastructure."
+  },
+  {
+    "question": "What is the DIB Cybersecurity and Information Assurance Program?",
+    "answer": "This program provides cyberspace analysis and forensics support to protect DOD information on defense industrial base networks through DC3."
+  },
+  {
+    "question": "What is the role of geographic combatant commanders (GCCs) in cyberspace?",
+    "answer": "GCCs lead, prioritize, and direct theater-specific DCO-IDM, secure and operate tactical DODIN segments, and integrate CO into theater and campaign plans."
+  },
+  {
+    "question": "What is CDRUSSTRATCOM's role in cyberspace operations?",
+    "answer": "CDRUSSTRATCOM has operational and configuration management authority for the SATCOM component of the DODIN, including on-orbit assets, control systems, and ground infrastructure."
+  },
+  {
+    "question": "What does DISA do in cyberspace operations?",
+    "answer": "DISA executes DODIN operations and DCO-IDM at global and enterprise levels, provides engineering and architecture support, and acquires commercial SATCOM resources."
+  },
+  {
+    "question": "What is the Interagency Joint Staff Task Order (IJSTO)?",
+    "answer": "IJSTO is a coordination process for cyberspace operations that contributes to deconfliction between DOD and other USG partners operating in cyberspace."
+  },
+  {
+    "question": "What is the DOD CIO's role in cyberspace?",
+    "answer": "The DOD CIO is the DODIN architect, developing, maintaining, and enforcing compliance with DODIN architecture standards and cybersecurity policy."
+  },
+  {
+    "question": "What is the Under Secretary of Defense for Intelligence's (USD[I]) role in cyberspace?",
+    "answer": "USD(I) develops and oversees implementation of DOD policy for intelligence, counterintelligence, security, and ISR cyberspace activities."
+  },
+  {
+    "question": "What is the National Guard Bureau's (NGB) role in cyberspace?",
+    "answer": "NGB advises CDRUSCYBERCOM on NGB matters, serves as channel of communications on CO matters with states and territories, and responds to DACO direction."
+  },
+  {
+    "question": "What is defense support of civil authorities (DSCA) in cyberspace?",
+    "answer": "DSCA applies fundamental principles used to respond to domestic emergencies in physical domains to cyberspace support during major threat events to the US."
+  },
+  {
+    "question": "What is the Homeland Security Act of 2002's relevance to cyber?",
+    "answer": "This act and HSPD-5 establish the Secretary of Homeland Security as the principal federal official for domestic incident management, including cybersecurity incidents."
+  },
+  {
+    "question": "What is the National Cybersecurity and Communications Integration Center (NCCIC)?",
+    "answer": "NCCIC is DHS's lead federal agency for technical assistance and vulnerability mitigation for significant cybersecurity incidents external to the DODIN and IC networks."
+  },
+  {
+    "question": "What is the National Cyber Investigative Joint Task Force (NCIJTF)?",
+    "answer": "The NCIJTF is a multi-agency focal point for coordinating, integrating, and sharing pertinent information related to cybersecurity threat investigations."
+  },
+  {
+    "question": "What is command and control (C2) in cyberspace?",
+    "answer": "C2 encompasses the exercise of authority and direction by commanders over assigned and attached forces, with cyberspace providing communications pathways and decision-support aids."
+  },
+  {
+    "question": "What is COCOM authority?",
+    "answer": "Combatant command (command authority) or COCOM is the nontransferable authority of a combatant commander to organize and employ commands and forces."
+  },
+  {
+    "question": "What is operational control (OPCON)?",
+    "answer": "OPCON is authority to perform functions of command over subordinate forces including assigning tasks, designating objectives, and giving authoritative direction."
+  },
+  {
+    "question": "What is tactical control (TACON)?",
+    "answer": "TACON is authority over assigned or attached forces for movement and maneuver necessary to accomplish assigned missions or tasks."
+  },
+  {
+    "question": "What is administrative control (ADCON)?",
+    "answer": "ADCON is direction over support functions including recruiting, organizing, training, equipping, and discipline."
+  },
+  {
+    "question": "What is a supported commander relationship?",
+    "answer": "A supported commander has primary responsibility for a task and receives forces or support from other commands."
+  },
+  {
+    "question": "What is a supporting commander relationship?",
+    "answer": "A supporting commander provides forces, support, or assistance to a supported commander."
+  },
+  {
+    "question": "What is direct support in cyberspace?",
+    "answer": "Direct support is a mission requiring a force to support another specific force and authorizing it to answer directly to the supported force's request."
+  },
+  {
+    "question": "What is general support in cyberspace?",
+    "answer": "General support is support given to the supported force as a whole rather than to a particular subdivision or element."
+  },
+  {
+    "question": "What is unity of command?",
+    "answer": "Unity of command means all forces operate under a single commander with requisite authority to direct all forces in pursuit of a unified purpose."
+  },
+  {
+    "question": "What is unity of effort?",
+    "answer": "Unity of effort is coordination and cooperation toward common objectives even if participants are not part of the same command structure."
+  },
+  {
+    "question": "What is mission assurance in cyberspace?",
+    "answer": "Mission assurance is a process to ensure critical functions and operations continue during and after cyberspace incidents."
+  },
+  {
+    "question": "What is continuity of operations (COOP)?",
+    "answer": "COOP is an internal effort to ensure continuous performance of essential functions during emergencies, including cyberspace disruptions."
+  },
+  {
+    "question": "What is the Global Force Management Implementation Guidance (GFMIG)?",
+    "answer": "GFMIG provides direction for assignment and allocation of forces to combatant commanders, including cyberspace forces assigned to USCYBERCOM."
+  },
+  {
+    "question": "What is an execute order (EXORD)?",
+    "answer": "An EXORD directs or authorizes execution of military operations, including specific cyberspace operations missions."
+  },
+  {
+    "question": "What is an operation order (OPORD)?",
+    "answer": "An OPORD is a directive issued by a commander to subordinate commanders for coordinated execution of an operation."
+  },
+  {
+    "question": "What is a concept plan (CONPLAN)?",
+    "answer": "A CONPLAN is an operation plan in abbreviated form that provides a basis for planning when time and circumstances permit."
+  },
+  {
+    "question": "What is an operation plan (OPLAN)?",
+    "answer": "An OPLAN is a complete and detailed military plan for conducting joint operations based on commanders' estimates."
+  },
+  {
+    "question": "What is the joint planning process (JPP)?",
+    "answer": "The JPP is an orderly, analytical process for planning joint operations that focuses on framing the situation and designing an operational approach."
+  },
+  {
+    "question": "What is the Adaptive Planning and Execution (APEX) enterprise?",
+    "answer": "APEX is the system for planning and executing military operations that integrates CO capabilities and functions."
+  },
+  {
+    "question": "What is information operations (IO)?",
+    "answer": "IO is the integrated employment of information-related capabilities during military operations to influence, disrupt, or usurp decision-making."
+  },
+  {
+    "question": "What are information-related capabilities (IRCs)?",
+    "answer": "IRCs are tools, techniques, or activities that affect information, including MISO, MILDEC, and cyberspace operations."
+  },
+  {
+    "question": "What is military information support operations (MISO)?",
+    "answer": "MISO conveys selected information and indicators to foreign audiences to influence their emotions, motives, reasoning, and behavior."
+  },
+  {
+    "question": "What is military deception (MILDEC)?",
+    "answer": "MILDEC actions mislead adversary decision makers, causing them to take specific actions or inactions favorable to friendly operations."
+  },
+  {
+    "question": "What is operations security (OPSEC)?",
+    "answer": "OPSEC is a process to identify, control, and protect critical information and indicators that could be used by adversaries."
+  },
+  {
+    "question": "What is counterintelligence (CI) in cyberspace?",
+    "answer": "CI in cyberspace identifies and neutralizes threats to DOD from foreign intelligence and security services operating in cyberspace."
+  },
+  {
+    "question": "What is signals intelligence (SIGINT)?",
+    "answer": "SIGINT is intelligence derived from electronic signals and systems including communications, radar, and weapons systems."
+  },
+  {
+    "question": "What is open-source intelligence (OSINT)?",
+    "answer": "OSINT is intelligence collected from publicly available sources including media, social networks, and Internet content."
+  },
+  {
+    "question": "What is human intelligence (HUMINT)?",
+    "answer": "HUMINT is intelligence gathered through interpersonal contact, including information from human sources."
+  },
+  {
+    "question": "What is geospatial intelligence (GEOINT)?",
+    "answer": "GEOINT is the exploitation and analysis of imagery and geospatial information to describe and visually depict features and activities."
+  },
+  {
+    "question": "What is measurement and signature intelligence (MASINT)?",
+    "answer": "MASINT is intelligence derived from analysis of data obtained from sensing instruments, detecting features of targets."
+  },
+  {
+    "question": "What is intelligence, surveillance, and reconnaissance (ISR)?",
+    "answer": "ISR is an activity that synchronizes and integrates the planning and operation of sensors, assets, and processing systems in support of operations."
+  },
+  {
+    "question": "What is the TCPED architecture?",
+    "answer": "TCPED (Tasking, Collection, Processing, Exploitation, and Dissemination) is the DOD architecture enabling commanders to task ISR assets and submit requirements."
+  },
+  {
+    "question": "What is a request for information (RFI) in cyberspace?",
+    "answer": "An RFI is a specific, time-sensitive, ad hoc requirement for intelligence information to support an ongoing crisis or operation."
+  },
+  {
+    "question": "What is all-source intelligence?",
+    "answer": "All-source intelligence integrates information from multiple collection disciplines to provide comprehensive intelligence products."
+  },
+  {
+    "question": "What is warning intelligence in cyberspace?",
+    "answer": "Warning intelligence factors political, military, and technical analysis to anticipate adversary cyberspace actions that may precede activities in physical domains."
+  },
+  {
+    "question": "What is threat hunting in cyberspace?",
+    "answer": "Threat hunting is proactive and aggressive internal searching for advanced and persistent threats that have bypassed security measures."
+  },
+  {
+    "question": "What is red teaming?",
+    "answer": "Red teaming tests security by simulating adversary tactics, techniques, and procedures to identify vulnerabilities."
+  },
+  {
+    "question": "What is penetration testing?",
+    "answer": "Penetration testing is authorized attempts to evaluate the security of IT infrastructure by safely exploiting vulnerabilities."
+  },
+  {
+    "question": "What is a security assist visit?",
+    "answer": "A security assist visit evaluates an organization's cybersecurity posture and provides recommendations for improvement."
+  },
+  {
+    "question": "What is communications monitoring (COMSEC monitoring)?",
+    "answer": "COMSEC monitoring evaluates communications security by detecting and analyzing transmissions for vulnerabilities."
+  },
+  {
+    "question": "What is digital forensics?",
+    "answer": "Digital forensics is the process of identifying, preserving, analyzing, and presenting digital evidence in legally acceptable ways."
+  },
+  {
+    "question": "What is the role of the Freedom Online Coalition?",
+    "answer": "The Freedom Online Coalition works to advance Internet freedom and protect human rights online, informing democratic cybersecurity values."
+  },
+  {
+    "question": "What is the Budapest Convention on Cybercrime?",
+    "answer": "The Budapest Convention is an international treaty addressing Internet and computer crime by harmonizing national laws and increasing international cooperation."
+  },
+  {
+    "question": "What are norms of responsible state behavior in cyberspace?",
+    "answer": "Norms are peacetime standards all UN member states have affirmed, including refraining from cyber operations that would intentionally damage critical infrastructure."
+  },
+  {
+    "question": "What is the UN Group of Governmental Experts (GGE) on cyberspace?",
+    "answer": "The UN GGE developed a framework for responsible state behavior in cyberspace including peacetime norms and confidence-building measures."
+  },
+  {
+    "question": "What is attribution in cyberspace operations?",
+    "answer": "Attribution is the process of identifying the party responsible for malicious cyberspace activity with sufficient confidence to hold them accountable."
+  },
+  {
+    "question": "What makes attribution difficult in cyberspace?",
+    "answer": "The design of the Internet allows anonymity, applications hide identity, and threats can operate through intermediaries in multiple jurisdictions."
+  },
+  {
+    "question": "What is cyber-enabled influence operations?",
+    "answer": "Cyber-enabled influence operations use cyberspace to spread disinformation and undermine public trust in democratic institutions."
+  },
+  {
+    "question": "What is digital authoritarianism?",
+    "answer": "Digital authoritarianism uses Internet technologies for surveillance, censorship, and control, representing a threat to democratic values in cyberspace."
+  },
+  {
+    "question": "What is transnational digital repression?",
+    "answer": "Transnational digital repression is when authoritarian regimes use cyber capabilities to surveil, manipulate, or harm individuals outside their borders."
+  },
+  {
+    "question": "What are cyber-enabled economic warfare techniques?",
+    "answer": "These techniques include theft of intellectual property, industrial espionage, and attacks on financial systems to gain economic advantage."
+  },
+  {
+    "question": "What is cryptocurrency's role in cybercrime?",
+    "answer": "Cryptocurrency enables ransomware payments, money laundering, and evasion of financial controls due to its pseudonymous nature."
+  },
+  {
+    "question": "What is cyber insurance?",
+    "answer": "Cyber insurance provides coverage for losses resulting from cyber incidents, though catastrophic events may exceed market capacity."
+  },
+  {
+    "question": "What is a cyber range?",
+    "answer": "A cyber range is a controlled environment for conducting cyber training, exercises, and capability development."
+  },
+  {
+    "question": "What is the National Initiative for Cybersecurity Education (NICE)?",
+    "answer": "NICE is a partnership between government, academia, and private sector to energize and promote a robust network of cybersecurity education and workforce development."
+  },
+  {
+    "question": "What is the CyberCorps Scholarship for Service program?",
+    "answer": "CyberCorps provides scholarships for cybersecurity education in exchange for government service, building the federal cyber workforce."
+  },
+  {
+    "question": "What are the National Centers of Academic Excellence in Cybersecurity?",
+    "answer": "These are designated institutions meeting rigorous cybersecurity curriculum standards, producing graduates for government and industry."
+  },
+    {
+    "question": "What is risk in cybersecurity?",
+    "answer": "Risk is a measure of the extent to which an entity is threatened by a potential circumstance, combining the likelihood of occurrence and the resulting adverse impact."
+  },
+  {
+    "question": "What are the components of cybersecurity risk?",
+    "answer": "Risk components include threat (adversary capability and intent), vulnerability (weakness that can be exploited), and impact (consequence of exploitation)."
+  },
+  {
+    "question": "What is risk appetite?",
+    "answer": "Risk appetite is the level and type of risk an organization is willing to accept to achieve its objectives."
+  },
+  {
+    "question": "What is risk tolerance?",
+    "answer": "Risk tolerance is the acceptable variation in outcomes related to specific performance measures linked to objectives."
+  },
+  {
+    "question": "What are risk mitigation strategies?",
+    "answer": "Risk mitigation strategies include avoiding, transferring, accepting, or reducing risk through implementing controls and countermeasures."
+  },
+  {
+    "question": "What is residual risk?",
+    "answer": "Residual risk is the risk that remains after security measures have been applied, representing accepted exposure."
+  },
+  {
+    "question": "What is inherent risk?",
+    "answer": "Inherent risk is the risk level before any controls are applied, representing the raw exposure to threats."
+  },
+  {
+    "question": "What is a risk assessment?",
+    "answer": "A risk assessment identifies, estimates, and prioritizes risks by analyzing threats, vulnerabilities, likelihood, and impact."
+  },
+  {
+    "question": "What is a threat assessment?",
+    "answer": "A threat assessment evaluates adversary capabilities, intentions, and targeting to understand potential threats to an organization."
+  },
+  {
+    "question": "What is a vulnerability assessment?",
+    "answer": "A vulnerability assessment systematically identifies and evaluates weaknesses in systems, networks, and processes."
+  },
+  {
+    "question": "What is the Common Vulnerability Scoring System (CVSS)?",
+    "answer": "CVSS is an open framework for communicating the characteristics and severity of software vulnerabilities using numerical scores."
+  },
+  {
+    "question": "What is the Common Vulnerabilities and Exposures (CVE) system?",
+    "answer": "CVE is a dictionary of publicly known information security vulnerabilities and exposures with unique identifiers."
+  },
+  {
+    "question": "What is the National Vulnerability Database (NVD)?",
+    "answer": "The NVD is a NIST repository of vulnerability management data using SCAP standards, including CVE entries with CVSS scores."
+  },
+  {
+    "question": "What is attack surface?",
+    "answer": "Attack surface is the sum of all points where an unauthorized user can try to enter data to or extract data from an environment."
+  },
+  {
+    "question": "What is attack surface management?",
+    "answer": "Attack surface management continuously discovers, classifies, and monitors an organization's digital assets exposed to potential attackers."
+  },
+  {
+    "question": "What is a security control?",
+    "answer": "A security control is a safeguard or countermeasure prescribed to protect confidentiality, integrity, and availability of information systems."
+  },
+  {
+    "question": "What are preventive controls?",
+    "answer": "Preventive controls are security measures that attempt to stop incidents before they occur, such as access controls and firewalls."
+  },
+  {
+    "question": "What are detective controls?",
+    "answer": "Detective controls identify and alert on incidents after they occur, such as intrusion detection systems and log monitoring."
+  },
+  {
+    "question": "What are corrective controls?",
+    "answer": "Corrective controls remediate the impact of incidents and restore systems to normal operation, such as backup restoration."
+  },
+  {
+    "question": "What are compensating controls?",
+    "answer": "Compensating controls are alternative measures when primary controls cannot be implemented, providing equivalent protection."
+  },
+  {
+    "question": "What is the difference between technical and administrative controls?",
+    "answer": "Technical controls use technology to reduce vulnerabilities, while administrative controls are policies, procedures, and training."
+  },
+  {
+    "question": "What are physical security controls?",
+    "answer": "Physical security controls protect hardware, facilities, and personnel, such as locks, guards, and environmental controls."
+  },
+  {
+    "question": "What is access control?",
+    "answer": "Access control is the selective restriction of access to resources based on identity, role, or other attributes."
+  },
+  {
+    "question": "What is role-based access control (RBAC)?",
+    "answer": "RBAC restricts system access based on roles assigned to users, with permissions granted to roles rather than individuals."
+  },
+  {
+    "question": "What is attribute-based access control (ABAC)?",
+    "answer": "ABAC grants access based on policies combining user attributes, resource attributes, environmental conditions, and actions."
+  },
+  {
+    "question": "What is mandatory access control (MAC)?",
+    "answer": "MAC restricts access based on security labels and clearances, with access decisions made by the system, not users."
+  },
+  {
+    "question": "What is discretionary access control (DAC)?",
+    "answer": "DAC allows resource owners to grant or restrict access to other users at their discretion."
+  },
+  {
+    "question": "What is authentication?",
+    "answer": "Authentication is the process of verifying the identity of a user, device, or system before granting access."
+  },
+  {
+    "question": "What is authorization?",
+    "answer": "Authorization determines what resources an authenticated entity is allowed to access and what actions they can perform."
+  },
+  {
+    "question": "What is accountability in security?",
+    "answer": "Accountability ensures actions can be traced to the entity that performed them through logging, auditing, and non-repudiation."
+  },
+  {
+    "question": "What is non-repudiation?",
+    "answer": "Non-repudiation provides proof that a specific action occurred by a specific entity, preventing denial of actions."
+  },
+  {
+    "question": "What is confidentiality?",
+    "answer": "Confidentiality ensures information is accessible only to authorized individuals, entities, or processes."
+  },
+  {
+    "question": "What is integrity in cybersecurity?",
+    "answer": "Integrity ensures data and systems are accurate, complete, and protected from unauthorized modification."
+  },
+  {
+    "question": "What is availability in cybersecurity?",
+    "answer": "Availability ensures systems and data are accessible when needed by authorized users."
+  },
+  {
+    "question": "What is the CIA triad?",
+    "answer": "The CIA triad represents the three core security objectives: Confidentiality, Integrity, and Availability."
+  },
+  {
+    "question": "What is data classification?",
+    "answer": "Data classification categorizes information based on sensitivity and impact of disclosure, determining required protections."
+  },
+  {
+    "question": "What are the DOD classification levels?",
+    "answer": "DOD classification levels are Unclassified, Confidential, Secret, and Top Secret, based on potential damage from unauthorized disclosure."
+  },
+  {
+    "question": "What is Controlled Unclassified Information (CUI)?",
+    "answer": "CUI is unclassified information that requires safeguarding or dissemination controls pursuant to law, regulation, or government-wide policy."
+  },
+  {
+    "question": "What is data at rest?",
+    "answer": "Data at rest is information stored on devices or media that is not actively moving through networks or being processed."
+  },
+  {
+    "question": "What is data in transit?",
+    "answer": "Data in transit is information actively moving through networks from one location to another."
+  },
+  {
+    "question": "What is data in use?",
+    "answer": "Data in use is information actively being processed, accessed, or manipulated by applications or users."
+  },
+  {
+    "question": "What is data sanitization?",
+    "answer": "Data sanitization is the process of removing or destroying data from storage media to prevent recovery."
+  },
+  {
+    "question": "What is data masking?",
+    "answer": "Data masking obscures sensitive data by replacing it with realistic but fictional data for testing or analytics."
+  },
+  {
+    "question": "What is tokenization?",
+    "answer": "Tokenization replaces sensitive data with non-sensitive tokens that map back to the original data in a secure vault."
+  },
+  {
+    "question": "What is hashing?",
+    "answer": "Hashing is a one-way function that converts data into a fixed-size string, used for integrity verification and password storage."
+  },
+  {
+    "question": "What is a digital signature?",
+    "answer": "A digital signature uses asymmetric cryptography to verify the authenticity and integrity of a message or document."
+  },
+  {
+    "question": "What is a certificate authority (CA)?",
+    "answer": "A CA is a trusted entity that issues digital certificates, verifying the identity of certificate holders."
+  },
+  {
+    "question": "What is Transport Layer Security (TLS)?",
+    "answer": "TLS is a cryptographic protocol providing secure communications over networks, the successor to SSL."
+  },
+  {
+    "question": "What is a virtual private network (VPN)?",
+    "answer": "A VPN creates an encrypted tunnel over public networks, extending private network capabilities securely."
+  },
+  {
+    "question": "What is network address translation (NAT)?",
+    "answer": "NAT modifies IP address information in packet headers, allowing multiple devices to share a single public IP address."
+  },
+  {
+    "question": "What is a demilitarized zone (DMZ)?",
+    "answer": "A DMZ is a network segment between internal and external networks that hosts public-facing services while protecting internal resources."
+  },
+  {
+    "question": "What is a proxy server?",
+    "answer": "A proxy server acts as an intermediary between clients and servers, providing security, privacy, and access control."
+  },
+  {
+    "question": "What is a web application firewall (WAF)?",
+    "answer": "A WAF filters and monitors HTTP traffic to protect web applications from attacks like SQL injection and cross-site scripting."
+  },
+  {
+    "question": "What is SQL injection?",
+    "answer": "SQL injection is an attack that inserts malicious SQL code into queries, potentially accessing or modifying database contents."
+  },
+  {
+    "question": "What is cross-site scripting (XSS)?",
+    "answer": "XSS injects malicious scripts into web pages viewed by other users, potentially stealing sessions or credentials."
+  },
+  {
+    "question": "What is cross-site request forgery (CSRF)?",
+    "answer": "CSRF tricks authenticated users into performing unintended actions on web applications they are logged into."
+  },
+  {
+    "question": "What is a man-in-the-middle attack?",
+    "answer": "A man-in-the-middle attack intercepts communications between two parties, potentially eavesdropping or altering messages."
+  },
+  {
+    "question": "What is credential stuffing?",
+    "answer": "Credential stuffing uses stolen username-password pairs from data breaches to attempt login on other services."
+  },
+  {
+    "question": "What is password spraying?",
+    "answer": "Password spraying tries common passwords against many accounts to avoid lockouts while seeking valid credentials."
+  },
+  {
+    "question": "What is brute force attack?",
+    "answer": "A brute force attack systematically tries all possible combinations to discover passwords or encryption keys."
+  },
+  {
+    "question": "What is social engineering?",
+    "answer": "Social engineering manipulates people into divulging information or performing actions that compromise security."
+  },
+  {
+    "question": "What is pretexting?",
+    "answer": "Pretexting creates a fabricated scenario to engage victims and extract information or gain access."
+  },
+  {
+    "question": "What is baiting in cybersecurity?",
+    "answer": "Baiting entices victims with something appealing, like infected USB drives, to compromise their systems."
+  },
+  {
+    "question": "What is vishing?",
+    "answer": "Vishing is voice phishing, using phone calls to trick victims into revealing sensitive information."
+  },
+  {
+    "question": "What is smishing?",
+    "answer": "Smishing is SMS phishing, using text messages to lure victims to malicious sites or reveal information."
+  },
+  {
+    "question": "What is whaling?",
+    "answer": "Whaling targets high-profile individuals like executives with sophisticated phishing attacks tailored to their role."
+  },
+  {
+    "question": "What is business email compromise (BEC)?",
+    "answer": "BEC exploits compromised or spoofed business email accounts to conduct fraudulent transfers or data theft."
+  },
+  {
+    "question": "What is a watering hole attack?",
+    "answer": "A watering hole attack compromises websites frequently visited by target victims to infect their systems."
+  },
+  {
+    "question": "What is a supply chain attack?",
+    "answer": "A supply chain attack targets less-secure elements in a supply network to compromise the ultimate target."
+  },
+  {
+    "question": "What is a trojan?",
+    "answer": "A trojan is malware disguised as legitimate software that provides unauthorized access or performs malicious actions."
+  },
+  {
+    "question": "What is a worm?",
+    "answer": "A worm is self-replicating malware that spreads across networks without requiring user interaction."
+  },
+  {
+    "question": "What is a rootkit?",
+    "answer": "A rootkit is malware designed to hide its presence and provide continued privileged access to a compromised system."
+  },
+  {
+    "question": "What is a keylogger?",
+    "answer": "A keylogger records keystrokes to capture passwords, credit card numbers, and other sensitive information."
+  },
+  {
+    "question": "What is spyware?",
+    "answer": "Spyware secretly monitors user activity, collecting information about browsing habits, credentials, and personal data."
+  },
+  {
+    "question": "What is adware?",
+    "answer": "Adware displays unwanted advertisements and may track browsing behavior, sometimes bundled with legitimate software."
+  },
+  {
+    "question": "What is cryptojacking?",
+    "answer": "Cryptojacking hijacks computing resources to mine cryptocurrency without the owner's consent."
+  },
+  {
+    "question": "What is fileless malware?",
+    "answer": "Fileless malware operates entirely in memory without writing files to disk, evading traditional detection methods."
+  },
+  {
+    "question": "What is a logic bomb?",
+    "answer": "A logic bomb is malicious code that executes when specific conditions are met, such as a date or event."
+  },
+  {
+    "question": "What is a backdoor?",
+    "answer": "A backdoor is a hidden method of bypassing normal authentication to gain unauthorized access to a system."
+  },
+  {
+    "question": "What is command and control (C2) infrastructure?",
+    "answer": "C2 infrastructure allows attackers to remotely control compromised systems, issue commands, and exfiltrate data."
+  },
+  {
+    "question": "What is lateral movement?",
+    "answer": "Lateral movement is the technique attackers use to move through a network after initial compromise to reach target systems."
+  },
+  {
+    "question": "What is privilege escalation?",
+    "answer": "Privilege escalation exploits vulnerabilities or misconfigurations to gain higher-level permissions than initially obtained."
+  },
+  {
+    "question": "What is persistence in cyber attacks?",
+    "answer": "Persistence is techniques attackers use to maintain access to compromised systems across reboots and credential changes."
+  },
+  {
+    "question": "What is exfiltration?",
+    "answer": "Exfiltration is the unauthorized transfer of data from a compromised system to an attacker-controlled location."
+  },
+  {
+    "question": "What is data staging?",
+    "answer": "Data staging is collecting and organizing stolen data before exfiltration, often compressing or encrypting it."
+  },
+  {
+    "question": "What is the cyber kill chain?",
+    "answer": "The cyber kill chain is a model describing attack phases: reconnaissance, weaponization, delivery, exploitation, installation, command and control, and actions on objectives."
+  },
+  {
+    "question": "What is the Diamond Model of intrusion analysis?",
+    "answer": "The Diamond Model analyzes intrusions through four features: adversary, capability, infrastructure, and victim."
+  },
+  {
+    "question": "What are tactics, techniques, and procedures (TTPs)?",
+    "answer": "TTPs describe adversary behavior patterns: tactics are goals, techniques are methods to achieve them, and procedures are specific implementations."
+  },
+  {
+    "question": "What is STIX?",
+    "answer": "Structured Threat Information Expression (STIX) is a standardized language for sharing cyber threat intelligence."
+  },
+  {
+    "question": "What is TAXII?",
+    "answer": "Trusted Automated eXchange of Indicator Information (TAXII) is a protocol for exchanging cyber threat intelligence in STIX format."
+  },
+  {
+    "question": "What is a security information sharing organization?",
+    "answer": "A security information sharing organization facilitates exchange of threat intelligence among members to improve collective defense."
+  },
+  {
+    "question": "What is the Automated Indicator Sharing (AIS) program?",
+    "answer": "AIS is a CISA initiative enabling real-time exchange of machine-readable cyber threat indicators between government and private sector."
+  },
+  {
+    "question": "What is a honeypot?",
+    "answer": "A honeypot is a decoy system designed to attract attackers, allowing defenders to study their techniques and detect intrusions."
+  },
+  {
+    "question": "What is a honeynet?",
+    "answer": "A honeynet is a network of honeypots that simulates a realistic environment to study attacker behavior."
+  },
+  {
+    "question": "What is deception technology?",
+    "answer": "Deception technology uses decoys, lures, and traps throughout networks to detect and mislead attackers."
+  },
+  {
+    "question": "What is a canary token?",
+    "answer": "A canary token is a tripwire that alerts when accessed, placed in documents or systems to detect unauthorized access."
+  },
+    {
+    "question": "What is Infrastructure as a Service (IaaS)?",
+    "answer": "IaaS provides virtualized computing resources over the internet, including servers, storage, and networking, with customers managing operating systems and applications."
+  },
+  {
+    "question": "What is Platform as a Service (PaaS)?",
+    "answer": "PaaS provides a platform for developing, running, and managing applications without managing underlying infrastructure."
+  },
+  {
+    "question": "What is Software as a Service (SaaS)?",
+    "answer": "SaaS delivers software applications over the internet on a subscription basis, with the provider managing all infrastructure and platforms."
+  },
+  {
+    "question": "What is the cloud shared responsibility model?",
+    "answer": "The shared responsibility model divides security between cloud providers (securing infrastructure) and customers (securing data, applications, and access)."
+  },
+  {
+    "question": "What is cloud security posture management (CSPM)?",
+    "answer": "CSPM continuously monitors cloud environments for misconfigurations, compliance violations, and security risks."
+  },
+  {
+    "question": "What is cloud workload protection platform (CWPP)?",
+    "answer": "CWPP provides security for workloads across cloud environments, including servers, containers, and serverless functions."
+  },
+  {
+    "question": "What is container security?",
+    "answer": "Container security protects containerized applications throughout their lifecycle, including image scanning, runtime protection, and orchestration security."
+  },
+  {
+    "question": "What is Kubernetes security?",
+    "answer": "Kubernetes security involves securing container orchestration, including cluster configuration, network policies, secrets management, and workload isolation."
+  },
+  {
+    "question": "What is serverless security?",
+    "answer": "Serverless security protects function-as-a-service environments, focusing on code security, access controls, and event trigger validation."
+  },
+  {
+    "question": "What is API security?",
+    "answer": "API security protects application programming interfaces from attacks, including authentication, authorization, rate limiting, and input validation."
+  },
+  {
+    "question": "What is microservices security?",
+    "answer": "Microservices security addresses the unique challenges of distributed architectures, including service-to-service authentication and network segmentation."
+  },
+  {
+    "question": "What is secure access service edge (SASE)?",
+    "answer": "SASE combines network security functions with WAN capabilities to support secure access needs of distributed organizations."
+  },
+  {
+    "question": "What is zero trust network access (ZTNA)?",
+    "answer": "ZTNA provides secure remote access based on defined access control policies, verifying users and devices before granting application access."
+  },
+  {
+    "question": "What is software-defined perimeter (SDP)?",
+    "answer": "SDP creates invisible, on-demand network perimeters around application resources, granting access only after authentication and authorization."
+  },
+  {
+    "question": "What is extended detection and response (XDR)?",
+    "answer": "XDR integrates security data across endpoints, networks, cloud, and email to provide comprehensive threat detection and response."
+  },
+  {
+    "question": "What is managed detection and response (MDR)?",
+    "answer": "MDR is outsourced security monitoring, detection, and response services that provide 24/7 threat hunting and incident response."
+  },
+  {
+    "question": "What is security service edge (SSE)?",
+    "answer": "SSE is the security component of SASE, including secure web gateway, cloud access security broker, and zero trust network access."
+  },
+  {
+    "question": "What is the OWASP Top 10?",
+    "answer": "The OWASP Top 10 is a regularly updated list of the most critical web application security risks, used for awareness and training."
+  },
+  {
+    "question": "What is NIST SP 800-53?",
+    "answer": "NIST SP 800-53 provides a catalog of security and privacy controls for federal information systems and organizations."
+  },
+  {
+    "question": "What is NIST SP 800-171?",
+    "answer": "NIST SP 800-171 provides requirements for protecting Controlled Unclassified Information in non-federal systems."
+  },
+  {
+    "question": "What is the Cybersecurity Maturity Model Certification (CMMC)?",
+    "answer": "CMMC is a DOD framework requiring defense contractors to demonstrate cybersecurity maturity through third-party assessments."
+  },
+  {
+    "question": "What is ISO 27001?",
+    "answer": "ISO 27001 is an international standard for information security management systems, providing a framework for managing security risks."
+  },
+  {
+    "question": "What is SOC 2?",
+    "answer": "SOC 2 is an auditing standard for service organizations, evaluating controls related to security, availability, processing integrity, confidentiality, and privacy."
+  },
+  {
+    "question": "What is PCI DSS?",
+    "answer": "PCI DSS is the Payment Card Industry Data Security Standard, a set of requirements for organizations handling credit card data."
+  },
+  {
+    "question": "What is HIPAA?",
+    "answer": "HIPAA is the Health Insurance Portability and Accountability Act, establishing standards for protecting sensitive patient health information."
+  },
+  {
+    "question": "What is GDPR?",
+    "answer": "GDPR is the General Data Protection Regulation, an EU law governing data protection and privacy for individuals within the EU."
+  },
+  {
+    "question": "What is CCPA?",
+    "answer": "CCPA is the California Consumer Privacy Act, giving California residents rights over their personal information held by businesses."
+  },
+  {
+    "question": "What is the CIS Controls framework?",
+    "answer": "CIS Controls are a prioritized set of cybersecurity best practices providing specific and actionable ways to prevent common attacks."
+  },
+  {
+    "question": "What is COBIT?",
+    "answer": "COBIT is a framework for governance and management of enterprise IT, aligning IT with business objectives."
+  },
+  {
+    "question": "What is ITIL?",
+    "answer": "ITIL is a framework for IT service management best practices, including security management as a key process."
+  },
+  {
+    "question": "What is the FAIR model?",
+    "answer": "FAIR (Factor Analysis of Information Risk) is a quantitative model for understanding, analyzing, and measuring information risk."
+  },
+  {
+    "question": "What is a security audit?",
+    "answer": "A security audit is a systematic evaluation of an organization's security posture against established criteria or standards."
+  },
+  {
+    "question": "What is a gap analysis in cybersecurity?",
+    "answer": "A gap analysis compares current security state against desired state or compliance requirements to identify deficiencies."
+  },
+  {
+    "question": "What is a tabletop exercise?",
+    "answer": "A tabletop exercise is a discussion-based session where personnel walk through a simulated scenario to test response procedures."
+  },
+  {
+    "question": "What is a purple team exercise?",
+    "answer": "A purple team exercise combines red team (attack) and blue team (defense) efforts to improve security through collaborative testing."
+  },
+  {
+    "question": "What is a blue team?",
+    "answer": "A blue team is responsible for defending an organization's security, detecting attacks, and responding to incidents."
+  },
+  {
+    "question": "What is a red team?",
+    "answer": "A red team simulates adversary attacks to test an organization's defenses and identify vulnerabilities."
+  },
+  {
+    "question": "What is artificial intelligence in cybersecurity?",
+    "answer": "AI in cybersecurity uses machine learning and automation to detect threats, analyze behavior, and respond to incidents faster than humans."
+  },
+  {
+    "question": "What is machine learning for threat detection?",
+    "answer": "Machine learning analyzes patterns in data to identify anomalies and potential threats that signature-based systems might miss."
+  },
+  {
+    "question": "What is user and entity behavior analytics (UEBA)?",
+    "answer": "UEBA uses machine learning to detect anomalous behavior by users and entities that may indicate compromised accounts or insider threats."
+  },
+  {
+    "question": "What is post-quantum cryptography?",
+    "answer": "Post-quantum cryptography develops cryptographic algorithms that remain secure against attacks by quantum computers."
+  },
+  {
+    "question": "What is quantum key distribution?",
+    "answer": "Quantum key distribution uses quantum mechanics to securely share encryption keys, detecting any interception attempts."
+  },
+  {
+    "question": "What is homomorphic encryption?",
+    "answer": "Homomorphic encryption allows computation on encrypted data without decrypting it, protecting data during processing."
+  },
+  {
+    "question": "What is secure multi-party computation?",
+    "answer": "Secure multi-party computation enables parties to jointly compute functions over their inputs while keeping inputs private."
+  },
+  {
+    "question": "What is blockchain security?",
+    "answer": "Blockchain security protects distributed ledger technology through cryptographic hashing, consensus mechanisms, and smart contract security."
+  },
+  {
+    "question": "What is IoT security?",
+    "answer": "IoT security protects internet-connected devices and networks from threats, addressing unique challenges of resource-constrained devices."
+  },
+  {
+    "question": "What is operational technology (OT) security?",
+    "answer": "OT security protects industrial control systems, SCADA, and other systems that monitor and control physical processes."
+  },
+  {
+    "question": "What is IT/OT convergence?",
+    "answer": "IT/OT convergence is the integration of information technology with operational technology, creating new security challenges."
+  },
+  {
+    "question": "What is industrial control system (ICS) security?",
+    "answer": "ICS security protects systems that manage industrial processes, including safety systems, PLCs, and HMIs."
+  },
+  {
+    "question": "What is SCADA?",
+    "answer": "SCADA (Supervisory Control and Data Acquisition) systems monitor and control industrial processes, requiring specialized security."
+  },
+  {
+    "question": "What is 5G security?",
+    "answer": "5G security addresses new attack surfaces in next-generation wireless networks, including network slicing and edge computing."
+  },
+  {
+    "question": "What is edge computing security?",
+    "answer": "Edge computing security protects distributed computing resources at the network edge, closer to data sources."
+  },
+  {
+    "question": "What is security by design?",
+    "answer": "Security by design integrates security considerations throughout the development lifecycle rather than adding them afterward."
+  },
+  {
+    "question": "What is shift-left security?",
+    "answer": "Shift-left security moves security testing earlier in the development process to identify and fix vulnerabilities sooner."
+  },
+  {
+    "question": "What is static application security testing (SAST)?",
+    "answer": "SAST analyzes source code to identify security vulnerabilities without executing the application."
+  },
+  {
+    "question": "What is dynamic application security testing (DAST)?",
+    "answer": "DAST tests running applications for vulnerabilities by simulating attacks against the live system."
+  },
+  {
+    "question": "What is interactive application security testing (IAST)?",
+    "answer": "IAST combines SAST and DAST by analyzing applications from within during runtime testing."
+  },
+  {
+    "question": "What is software composition analysis (SCA)?",
+    "answer": "SCA identifies open-source and third-party components in applications and their known vulnerabilities."
+  },
+  {
+    "question": "What is runtime application self-protection (RASP)?",
+    "answer": "RASP is security technology built into applications that detects and prevents attacks in real-time."
+  },
+  {
+    "question": "What is a bug bounty program?",
+    "answer": "A bug bounty program rewards external researchers for responsibly disclosing security vulnerabilities."
+  },
+  {
+    "question": "What is responsible disclosure?",
+    "answer": "Responsible disclosure is the practice of privately reporting vulnerabilities to vendors before public disclosure."
+  },
+  {
+    "question": "What is coordinated vulnerability disclosure?",
+    "answer": "Coordinated vulnerability disclosure involves researchers, vendors, and sometimes coordinators working together to disclose and remediate vulnerabilities."
+  },
+  {
+    "question": "What is a security champion?",
+    "answer": "A security champion is a team member who promotes security awareness and best practices within development teams."
+  },
+  {
+    "question": "What is security debt?",
+    "answer": "Security debt is the accumulation of security issues and technical shortcuts that must eventually be addressed."
+  },
+  {
+    "question": "What is the principle of separation of duties?",
+    "answer": "Separation of duties divides critical functions among multiple people to prevent fraud and errors."
+  },
+  {
+    "question": "What is defense in depth strategy?",
+    "answer": "Defense in depth uses multiple security layers so that if one fails, others continue to protect assets."
+  },
+  {
+    "question": "What is fail-safe design?",
+    "answer": "Fail-safe design ensures systems default to a secure state when failures occur."
+  },
+  {
+    "question": "What is fail-secure design?",
+    "answer": "Fail-secure ensures access is denied by default when system failures occur, prioritizing security over availability."
+  },
+  {
+    "question": "What is security through obscurity?",
+    "answer": "Security through obscurity relies on secrecy of design or implementation, considered insufficient as a sole defense."
+  },
+  {
+    "question": "What is the Kerckhoffs principle?",
+    "answer": "Kerckhoffs principle states that cryptographic systems should remain secure even if everything except the key is public knowledge."
+  },
+  {
+    "question": "What is open security?",
+    "answer": "Open security is the philosophy that security methods should be publicly known and verified rather than secret."
+  },
+  {
+    "question": "What is trusted computing?",
+    "answer": "Trusted computing uses hardware-based security to ensure systems behave as expected, including TPM and secure boot."
+  },
+  {
+    "question": "What is a Trusted Platform Module (TPM)?",
+    "answer": "A TPM is a hardware security chip that provides cryptographic functions and secure storage for keys and measurements."
+  },
+  {
+    "question": "What is secure boot?",
+    "answer": "Secure boot verifies that each component of the boot process is signed and trusted before executing."
+  },
+  {
+    "question": "What is hardware security module (HSM)?",
+    "answer": "An HSM is a physical device that manages digital keys and performs cryptographic operations securely."
+  },
+  {
+    "question": "What is key management?",
+    "answer": "Key management encompasses the generation, storage, distribution, use, and destruction of cryptographic keys."
+  },
+  {
+    "question": "What is secrets management?",
+    "answer": "Secrets management securely stores and controls access to credentials, API keys, certificates, and other sensitive data."
+  },
+  {
+    "question": "What is certificate lifecycle management?",
+    "answer": "Certificate lifecycle management handles the issuance, renewal, revocation, and monitoring of digital certificates."
+  },
+  {
+    "question": "What is certificate pinning?",
+    "answer": "Certificate pinning restricts which certificates are trusted for a specific domain, preventing man-in-the-middle attacks."
+  },
+  {
+    "question": "What is certificate transparency?",
+    "answer": "Certificate transparency is a framework for monitoring and auditing SSL/TLS certificates to detect mis-issued certificates."
+  },
+  {
+    "question": "What is DNS security (DNSSEC)?",
+    "answer": "DNSSEC adds cryptographic signatures to DNS records to prevent DNS spoofing and cache poisoning."
+  },
+  {
+    "question": "What is BGP security?",
+    "answer": "BGP security addresses vulnerabilities in the Border Gateway Protocol, including route hijacking and leaks."
+  },
+  {
+    "question": "What is email security?",
+    "answer": "Email security protects email communications through encryption, authentication (SPF, DKIM, DMARC), and threat filtering."
+  },
+  {
+    "question": "What is SPF?",
+    "answer": "Sender Policy Framework (SPF) is an email authentication method that specifies which servers can send email for a domain."
+  },
+  {
+    "question": "What is DKIM?",
+    "answer": "DomainKeys Identified Mail (DKIM) adds a digital signature to emails to verify they haven't been altered."
+  },
+  {
+    "question": "What is DMARC?",
+    "answer": "Domain-based Message Authentication, Reporting, and Conformance (DMARC) builds on SPF and DKIM to prevent email spoofing."
+  },
+  {
+    "question": "What is mobile device management (MDM)?",
+    "answer": "MDM is software for managing and securing mobile devices used in organizations, enforcing policies and enabling remote wipe."
+  },
+  {
+    "question": "What is mobile application management (MAM)?",
+    "answer": "MAM focuses on securing and managing specific applications on mobile devices rather than the entire device."
+  },
+  {
+    "question": "What is unified endpoint management (UEM)?",
+    "answer": "UEM provides a single platform for managing all endpoints including mobile devices, laptops, and IoT devices."
+  },
+  {
+    "question": "What is bring your own device (BYOD) security?",
+    "answer": "BYOD security addresses risks when employees use personal devices for work, balancing security with privacy."
+  },
+  {
+    "question": "What is network access control (NAC)?",
+    "answer": "NAC restricts network access based on device compliance with security policies, ensuring only authorized devices connect."
+  },
+    {
+    "question": "What is the DOD Information Network (DODIN)?",
+    "answer": "The DODIN is the globally interconnected end-to-end set of DOD information capabilities and associated processes for collecting, processing, storing, disseminating, and managing information."
+  },
+  {
+    "question": "What is the Joint Information Environment (JIE)?",
+    "answer": "JIE is a DOD initiative to consolidate and standardize networks, security architecture, and data centers to improve cybersecurity and efficiency."
+  },
+  {
+    "question": "What is the DOD Cybersecurity Reference Architecture (CSRA)?",
+    "answer": "CSRA provides a framework for implementing consistent cybersecurity capabilities across DOD information systems."
+  },
+  {
+    "question": "What is the Defense Information Systems Agency (DISA)?",
+    "answer": "DISA provides IT and communications support to the DOD, including operating portions of the DODIN and providing cybersecurity services."
+  },
+  {
+    "question": "What are the Service Cyberspace Component commands?",
+    "answer": "Service Cyberspace Components include Army Cyber Command, Fleet Cyber Command, Air Forces Cyber, and Marine Forces Cyberspace Command."
+  },
+  {
+    "question": "What is Army Cyber Command (ARCYBER)?",
+    "answer": "ARCYBER conducts cyberspace operations in support of Army and joint force commanders and operates Army networks."
+  },
+  {
+    "question": "What is Fleet Cyber Command (FLTCYBER)?",
+    "answer": "FLTCYBER serves as the Navy's cyberspace component commander, conducting full-spectrum cyberspace operations."
+  },
+  {
+    "question": "What is Air Forces Cyber (AFCYBER)?",
+    "answer": "AFCYBER provides trained and ready cyberspace forces for USCYBERCOM and operates Air Force network operations."
+  },
+  {
+    "question": "What is Marine Forces Cyberspace Command (MARFORCYBER)?",
+    "answer": "MARFORCYBER conducts cyberspace operations in support of Marine Corps and joint force commanders."
+  },
+  {
+    "question": "What is persistent engagement in cyberspace?",
+    "answer": "Persistent engagement is the strategy of continuously operating in cyberspace to seize initiative, deny adversary opportunities, and shape the environment."
+  },
+  {
+    "question": "What is defend forward in cyberspace?",
+    "answer": "Defend forward disrupts or halts malicious cyber activity at its source, including activity that falls below the level of armed conflict."
+  },
+  {
+    "question": "What is the 2018 DOD Cyber Strategy's approach?",
+    "answer": "The 2018 strategy emphasizes defending forward, persistent engagement, and competing daily in cyberspace below the level of armed conflict."
+  },
+  {
+    "question": "What is cyber operational preparation of the environment?",
+    "answer": "Cyber OPE involves gaining access to adversary networks and systems to enable future operations while remaining undetected."
+  },
+  {
+    "question": "What are cyber effects operations?",
+    "answer": "Cyber effects operations produce intended effects in and through cyberspace, including denial, degradation, disruption, destruction, or manipulation."
+  },
+  {
+    "question": "What is the difference between network warfare and cyberspace operations?",
+    "answer": "Network warfare focuses on computer network attack, exploitation, and defense, while cyberspace operations encompasses the broader employment of cyberspace capabilities."
+  },
+  {
+    "question": "What is the relationship between cyberspace operations and information operations?",
+    "answer": "Cyberspace operations are a core information-related capability that can be integrated with other IO capabilities to achieve information advantages."
+  },
+  {
+    "question": "What is electromagnetic spectrum operations (EMSO)?",
+    "answer": "EMSO is the coordinated military action to exploit, attack, protect, and manage the electromagnetic environment."
+  },
+  {
+    "question": "What is the relationship between electronic warfare and cyberspace operations?",
+    "answer": "EW and CO may share targets and effects in the EMS, requiring close coordination to avoid interference and maximize combined effects."
+  },
+  {
+    "question": "What is a cyber national mission team?",
+    "answer": "Cyber National Mission Teams defend the nation against significant cyberspace threats by countering adversary cyberspace activity."
+  },
+  {
+    "question": "What is a cyber protection team?",
+    "answer": "Cyber Protection Teams defend DOD networks by hunting for adversary activity and hardening networks against threats."
+  },
+  {
+    "question": "What is a cyber combat mission team?",
+    "answer": "Cyber Combat Mission Teams provide cyberspace support to combatant commanders for operations in gray and red cyberspace."
+  },
+  {
+    "question": "What is a cyber support team?",
+    "answer": "Cyber Support Teams provide analytic and planning support to cyber mission teams and integrate with intelligence elements."
+  },
+  {
+    "question": "What is the Cyber Mission Force (CMF)?",
+    "answer": "The CMF is the primary force for executing DOD's cyberspace missions, organized into teams for national missions, combat missions, and protection."
+  },
+  {
+    "question": "What is cyberspace superiority?",
+    "answer": "Cyberspace superiority is the degree of dominance in cyberspace that permits the secure, reliable conduct of operations."
+  },
+  {
+    "question": "Why can't permanent cyberspace superiority be achieved?",
+    "answer": "The complexity of cyberspace, private ownership, low barriers to entry, and constant technological change prevent permanent superiority."
+  },
+  {
+    "question": "What is mission-relevant terrain in cyberspace?",
+    "answer": "Mission-relevant terrain is the portions of cyberspace where the commander must create and maintain access to complete the mission."
+  },
+  {
+    "question": "What is cyberspace terrain analysis?",
+    "answer": "Cyberspace terrain analysis evaluates physical, logical, and cyber-persona layer features to understand the operational environment."
+  },
+  {
+    "question": "What is malware analysis in military operations?",
+    "answer": "Malware analysis examines malicious code to understand capabilities, origins, and impacts, supporting attribution and countermeasures."
+  },
+  {
+    "question": "What is a cyberspace weapon?",
+    "answer": "A cyberspace weapon is a capability designed to create effects in or through cyberspace, requiring careful management and security."
+  },
+  {
+    "question": "What is access development in cyberspace?",
+    "answer": "Access development creates or maintains capability to reach targets in cyberspace for future operations."
+  },
+  {
+    "question": "What are cyberspace capabilities?",
+    "answer": "Cyberspace capabilities are device, computer program, or technique designed to create an effect in or through cyberspace."
+  },
+  {
+    "question": "What is a cyberspace vulnerability?",
+    "answer": "A cyberspace vulnerability is a weakness that can be exploited to gain unauthorized access or create effects."
+  },
+  {
+    "question": "What is exploit code?",
+    "answer": "Exploit code is software or commands that take advantage of vulnerabilities to gain access or control."
+  },
+  {
+    "question": "What is a payload in cyberspace operations?",
+    "answer": "A payload is the component of a cyberspace capability that creates the intended effect on the target."
+  },
+  {
+    "question": "What is implant in cyber operations?",
+    "answer": "An implant is software placed on a target system to enable access, collection, or effects."
+  },
+  {
+    "question": "What is beacon in cyber operations?",
+    "answer": "A beacon is software that communicates with command and control infrastructure, often indicating successful compromise."
+  },
+  {
+    "question": "What is a cyber operation order (CYBER OPORD)?",
+    "answer": "A CYBER OPORD provides direction for cyberspace operations, including mission, execution, and coordination requirements."
+  },
+  {
+    "question": "What are standing rules of engagement for cyberspace?",
+    "answer": "Standing ROE provide self-defense authorities and basic guidelines for cyberspace operations during peacetime and conflict."
+  },
+  {
+    "question": "What is the cyber operations execution cycle?",
+    "answer": "The execution cycle includes planning, preparation, execution, and assessment phases for cyberspace operations."
+  },
+  {
+    "question": "What is a cyber operation plan?",
+    "answer": "A cyber operation plan details how cyberspace capabilities will be employed to achieve operational objectives."
+  },
+  {
+    "question": "What is target systems analysis in cyberspace?",
+    "answer": "Target systems analysis examines target components, functions, and vulnerabilities to identify optimal attack vectors."
+  },
+  {
+    "question": "What is cyber target development?",
+    "answer": "Cyber target development identifies and characterizes potential targets in cyberspace, determining their criticality and accessibility."
+  },
+  {
+    "question": "What is a cyber target nomination?",
+    "answer": "A cyber target nomination recommends specific targets for cyberspace operations, including justification and intended effects."
+  },
+  {
+    "question": "What is dynamic targeting in cyberspace?",
+    "answer": "Dynamic targeting engages targets not previously planned, requiring rapid prosecution to meet immediate operational needs."
+  },
+  {
+    "question": "What is deliberate targeting in cyberspace?",
+    "answer": "Deliberate targeting prosecutes planned targets using detailed intelligence and established access."
+  },
+  {
+    "question": "What is cyber battle damage assessment?",
+    "answer": "Cyber BDA determines the effect of cyberspace operations on targets, including functional and system damage."
+  },
+  {
+    "question": "What is re-attack recommendation in cyber operations?",
+    "answer": "Re-attack recommendation assesses whether additional operations are needed to achieve desired effects on a target."
+  },
+  {
+    "question": "What is collateral damage estimation in cyberspace?",
+    "answer": "Collateral damage estimation evaluates potential unintended effects of cyberspace operations on non-target systems."
+  },
+  {
+    "question": "What are legal considerations for offensive cyberspace operations?",
+    "answer": "Legal considerations include law of armed conflict, domestic law, international law, and rules of engagement."
+  },
+  {
+    "question": "What is a cyber incident report?",
+    "answer": "A cyber incident report documents detected cybersecurity events, including indicators, impact, and response actions."
+  },
+  {
+    "question": "What is a compromised network?",
+    "answer": "A compromised network has been accessed by unauthorized parties, potentially allowing data theft or system manipulation."
+  },
+  {
+    "question": "What is an intrusion set?",
+    "answer": "An intrusion set is a related group of adversary behaviors and resources associated with a threat actor."
+  },
+  {
+    "question": "What is threat actor profiling?",
+    "answer": "Threat actor profiling characterizes adversaries including their capabilities, intentions, and typical tactics."
+  },
+  {
+    "question": "What is cyber attribution in military context?",
+    "answer": "Cyber attribution identifies the responsible party for malicious cyber activity with sufficient confidence for response decisions."
+  },
+  {
+    "question": "What are cyber threat indicators?",
+    "answer": "Cyber threat indicators are technical artifacts like IP addresses, domains, and file hashes associated with malicious activity."
+  },
+  {
+    "question": "What is cyber threat hunting?",
+    "answer": "Cyber threat hunting proactively searches for threats that have evaded existing security measures."
+  },
+  {
+    "question": "What is a cybersecurity service provider (CSSP)?",
+    "answer": "A CSSP provides security monitoring and protection services for DOD information systems and networks."
+  },
+  {
+    "question": "What is the Joint Force Headquarters-Cyber (JFHQ-C)?",
+    "answer": "JFHQ-C plans and executes cyberspace operations in support of geographic and functional combatant commanders."
+  },
+  {
+    "question": "What is USCYBERCOM's relationship with NSA?",
+    "answer": "USCYBERCOM and NSA share a commander and facilities, with NSA providing intelligence support to cyberspace operations."
+  },
+  {
+    "question": "What is the dual-hat arrangement?",
+    "answer": "The dual-hat arrangement has the same four-star officer commanding both USCYBERCOM and NSA, coordinating military and intelligence activities."
+  },
+  {
+    "question": "What are DOD cyberspace authorities?",
+    "answer": "DOD cyberspace authorities include Title 10 military operations, Title 50 intelligence activities, and delegated authorities from the President and SecDef."
+  },
+  {
+    "question": "What is Section 1642 authority?",
+    "answer": "Section 1642 of the FY2019 NDAA affirms that military cyber operations short of armed conflict may be conducted as traditional military activities."
+  },
+  {
+    "question": "What is an execute order for cyberspace operations?",
+    "answer": "An EXORD authorizes execution of specific cyberspace operations, providing authority, objectives, and constraints."
+  },
+  {
+    "question": "What is cyber warning intelligence?",
+    "answer": "Cyber warning intelligence provides indications of imminent or potential adversary cyberspace activity."
+  },
+  {
+    "question": "What is the cybersecurity risk to mission?",
+    "answer": "Cybersecurity risk to mission evaluates how cybersecurity vulnerabilities could impact the ability to accomplish military objectives."
+  },
+  {
+    "question": "What is mission assurance in DOD context?",
+    "answer": "Mission assurance ensures critical DOD missions continue during and after adverse events, including cyberspace incidents."
+  },
+  {
+    "question": "What is the Defense Critical Infrastructure Program (DCIP)?",
+    "answer": "DCIP identifies and prioritizes critical DOD infrastructure and ensures its protection against all hazards including cyber threats."
+  },
+  {
+    "question": "What is a mission-essential function?",
+    "answer": "A mission-essential function is a function that must be performed continuously or resumed within 12 hours of disruption."
+  },
+  {
+    "question": "What is weapons system cybersecurity?",
+    "answer": "Weapons system cybersecurity protects the IT and OT components of weapons platforms from cyber threats."
+  },
+  {
+    "question": "What is platform IT (PIT)?",
+    "answer": "PIT is IT that is physically part of, dedicated to, or essential to the mission performance of weapons systems."
+  },
+  {
+    "question": "What is supply chain risk management for weapons systems?",
+    "answer": "SCRM for weapons systems identifies and mitigates risks from malicious insertion or counterfeit components."
+  },
+  {
+    "question": "What is the DOD risk management framework (RMF)?",
+    "answer": "DOD RMF is the process for categorizing, selecting, implementing, assessing, and authorizing security controls for DOD systems."
+  },
+  {
+    "question": "What is an authorization to operate (ATO)?",
+    "answer": "An ATO is a formal declaration by an authorizing official that a system can operate at an acceptable level of risk."
+  },
+  {
+    "question": "What is continuous authorization?",
+    "answer": "Continuous authorization maintains ongoing awareness of system risk through continuous monitoring rather than periodic reauthorization."
+  },
+  {
+    "question": "What are security control assessors (SCAs)?",
+    "answer": "SCAs independently evaluate the implementation and effectiveness of security controls in DOD systems."
+  },
+  {
+    "question": "What is the Defense Information Assurance Certification and Accreditation Process?",
+    "answer": "DIACAP was the predecessor to RMF, providing a process for certifying and accrediting DOD information systems."
+  },
+  {
+    "question": "What is eMASS?",
+    "answer": "eMASS (Enterprise Mission Assurance Support Service) is the DOD system for managing cybersecurity authorization of information systems."
+  },
+  {
+    "question": "What is the Security Technical Implementation Guide (STIG)?",
+    "answer": "STIGs are configuration standards for DOD information systems, providing security requirements for specific technologies."
+  },
+  {
+    "question": "What is vulnerability scanning in DOD?",
+    "answer": "Vulnerability scanning uses automated tools to identify security weaknesses in DOD networks and systems, typically using ACAS."
+  },
+  {
+    "question": "What is Assured Compliance Assessment Solution (ACAS)?",
+    "answer": "ACAS is the DOD standard tool for vulnerability scanning, configuration assessment, and compliance reporting."
+  },
+  {
+    "question": "What is the Host-Based Security System (HBSS)?",
+    "answer": "HBSS provides endpoint protection on DOD systems including antivirus, firewall, and intrusion prevention capabilities."
+  },
+  {
+    "question": "What is the Cyber Command Readiness Inspection (CCRI)?",
+    "answer": "CCRI assesses the cybersecurity posture and readiness of DOD networks and organizations."
+  },
+  {
+    "question": "What is a cyber vulnerability assessment?",
+    "answer": "A cyber vulnerability assessment identifies and evaluates vulnerabilities in DOD systems and networks."
+  },
+  {
+    "question": "What is a cooperative vulnerability assessment?",
+    "answer": "A cooperative vulnerability assessment is conducted with system owner participation to identify and remediate vulnerabilities."
+  },
+  {
+    "question": "What is an adversarial assessment in cybersecurity?",
+    "answer": "An adversarial assessment simulates real-world attacks to evaluate defensive capabilities and identify weaknesses."
+  },
+  {
+    "question": "What is cyber exercises in DOD?",
+    "answer": "Cyber exercises test and improve DOD cyberspace capabilities, procedures, and readiness through simulated scenarios."
+  },
+  {
+    "question": "What is Cyber Flag?",
+    "answer": "Cyber Flag is USCYBERCOM's premier training event for developing cyber warfighting capabilities and testing force integration."
+  },
+  {
+    "question": "What is Cyber Guard?",
+    "answer": "Cyber Guard is a USCYBERCOM exercise focused on defending critical infrastructure with interagency and private sector partners."
+  }
+]
+
