@@ -127,12 +127,14 @@ def health():
     })
 
 
-if __name__ == '__main__':
-    # Load model at startup
-    load_model()
+# Load model when the module is imported (for Gunicorn)
+print("Initializing application...")
+load_model()
 
+
+if __name__ == '__main__':
     # Get port from environment variable (Render uses PORT)
     port = int(os.environ.get('PORT', 5000))
 
-    # Run the app
+    # Run the app (model is already loaded above)
     app.run(host='0.0.0.0', port=port, debug=False)
