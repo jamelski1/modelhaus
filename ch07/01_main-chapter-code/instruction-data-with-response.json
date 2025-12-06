@@ -1,0 +1,662 @@
+[
+    {
+        "instruction": "Summarize JP 3-2\u2019s view on battlespace awareness.",
+        "input": "Excerpt: \"Battlespace awareness requires integrating intelligence, surveillance, and reconnaissance capabilities.\"",
+        "output": "Battlespace awareness in cyber includes mapping networks, identifying adversary infrastructure, and understanding intent.",
+        "model_response": "Understanding the environment and anticipating adversary actions are essential components of battlespace awareness."
+    },
+    {
+        "instruction": "Explain JP 2-0\u2019s requirement for intelligence preparation of the operational environment (IPOE).",
+        "input": "Excerpt: \"IPOE is a systematic process that supports decision-making by analyzing the operational environment.\"",
+        "output": "IPOE in cyberspace identifies key nodes, vulnerabilities, access vectors, and adversary capabilities.",
+        "model_response": "IPOE helps commanders make tactical and strategic decisions by analyzing the environment and the adversary."
+    },
+    {
+        "instruction": "Describe JP 2-0\u2019s perspective on indications and warnings.",
+        "input": "Excerpt: \"Indications and warnings detect potential adversary actions early to enable timely response.\"",
+        "output": "Cyber indications and warnings help detect intrusions or preparations for attack before significant damage occurs.",
+        "model_response": "Indications and warnings help anticipate adversary actions and enable timely defensive or offensive operations."
+    },
+    {
+        "instruction": "Explain the Privacy Act of 1974\u2019s protection of personal data.",
+        "input": "Excerpt: \"Agencies shall maintain no record describing how an individual exercises First Amendment rights unless authorized by law.\"",
+        "output": "The Privacy Act restricts government collection and use of individuals\u2019 personal information.",
+        "model_response": "The Privacy Act protects individuals\u2019 personal data from being used to identify or target individuals\u2019s protected communications."
+    },
+    {
+        "instruction": "Describe the role of the E-Government Act regarding information security.",
+        "input": "Excerpt: \"Agencies shall conduct Privacy Impact Assessments for information systems containing personal data.\"",
+        "output": "The Act requires agencies to evaluate and disclose privacy risks when deploying new systems.",
+        "model_response": "The E-Government Act requires agencies to conduct privacy impact assessments for systems containing personal data."
+    },
+    {
+        "instruction": "Explain the role of the Clinger-Cohen Act in federal IT management.",
+        "input": "Excerpt: \"The head of each agency shall implement a process for maximizing value and assessing risks of IT investments.\"",
+        "output": "Clinger-Cohen strengthens IT governance and requires cost-effective cybersecurity risk management.",
+        "model_response": "The Clinger-Cohen Act requires agencies to analyze risks and prioritize investments in cybersecurity."
+    },
+    {
+        "instruction": "Summarize the significance of 18 U.S.C. \u00a71030(c) penalties.",
+        "input": "Excerpt: \"Violations of unauthorized access provisions may result in fines or imprisonment.\"",
+        "output": "18 USC 1030 imposes criminal penalties for significant breaches involving protected computers.",
+        "model_response": "18 U.S.C. \u00a71030 imposes civil and criminal penalties for unauthorized access to federal systems."
+    },
+    {
+        "instruction": "Explain how 47 U.S.C. \u00a7222 protects communications data.",
+        "input": "Excerpt: \"Telecommunications carriers have a duty to protect the confidentiality of proprietary customer information.\"",
+        "output": "This law requires telecom providers to safeguard customer data against unauthorized disclosure.",
+        "model_response": "47 U.S.C. \u00a7222 ensures carriers can protect customer proprietary data by requiring safeguards like encryption and data retention."
+    },
+    {
+        "instruction": "According to Tallinn Manual 2.0, how is 'sovereignty' treated in cyberspace?",
+        "input": "Excerpt: \"A State must not conduct cyber operations that violate the sovereignty of another State.\"",
+        "output": "Tallinn Manual 2.0 states that cyber operations which cause physical effects, loss of functionality, or interfere with inherently governmental functions may violate another state's sovereignty.",
+        "model_response": "Sovereignty is not a defense against cyber attacks from another State."
+    },
+    {
+        "instruction": "Explain Tallinn Manual Rule 4 on jurisdiction.",
+        "input": "Excerpt: \"States may exercise jurisdiction over cyber infrastructure and persons within their territory.\"",
+        "output": "Rule 4 notes that states retain jurisdiction over cyber devices, networks, and individuals physically within their territory, regardless of where the effects are felt.",
+        "model_response": "Rule 4 allows states to exercise cyber jurisdiction over cyber infrastructure and individuals even if they are not formally part of the U.S.\n\n### I.O. 14028 requires states to exercise cyber jurisdiction over cyberspace assets even if they are not formally part of the U.S."
+    },
+    {
+        "instruction": "Describe the Tallinn Manual\u2019s guidance on due diligence.",
+        "input": "Excerpt: \"A State must not knowingly allow its territory to be used for cyber operations that adversely affect the rights of another State.\"",
+        "output": "Due diligence requires states to take reasonable steps to stop malicious cyber activity originating from their territory once they are aware of it.",
+        "model_response": "The Tallinn Manual requires states to exercise due diligence to avoid being used for cyber operations that could harm another state."
+    },
+    {
+        "instruction": "Summarize Tallinn Manual rules on countermeasures.",
+        "input": "Excerpt: \"Countermeasures must be non-forceful and aim to induce the responsible State to comply with international obligations.\"",
+        "output": "States may respond to unlawful cyber acts with proportionate, non-violent countermeasures designed to compel compliance with international law.",
+        "model_response": "Tallinn Manual rules require countermeasures to be non-forceful and non-lethal."
+    },
+    {
+        "instruction": "Explain how Tallinn Manual defines a \u2018use of force\u2019 in cyberspace.",
+        "input": "Excerpt: \"Cyber operations that cause physical damage or injury may constitute a use of force.\"",
+        "output": "A cyber operation is a use of force when its consequences resemble kinetic attacks\u2014such as destroying infrastructure or causing injury.",
+        "model_response": "A cyberspace operation is a cyberspace operation that causes physical harm or injury\u2019 under the doctrine of\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\n\n### Instruction:\n\u2019Use of force\u2019 is the legal principle that cyberspace operations that cause physical harm or injury\u2019 are covered by the doctrine of\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\u2019\ufffd"
+    },
+    {
+        "instruction": "According to the Budapest Convention, what constitutes illegal access?",
+        "input": "Excerpt: \"Each Party shall criminalize the intentional access to the whole or any part of a computer system without right.\"",
+        "output": "Illegal access is any intentional, unauthorized entry into a computer system under the Budapest Convention.",
+        "model_response": "The Budapest Convention criminalizes unauthorized access to computers and networks, which can include hacking or other forms of digital espionage."
+    },
+    {
+        "instruction": "Explain the Budapest Convention article on data interference.",
+        "input": "Excerpt: \"Intentional damaging, alteration, deletion, or deterioration of computer data shall be criminalized.\"",
+        "output": "Data interference includes any deliberate action that harms, deletes, or corrupts data without authorization.",
+        "model_response": "The Budapest Convention criminalizes unauthorized access to or modification of computer data."
+    },
+    {
+        "instruction": "Describe the Budapest Convention\u2019s rule on jurisdiction.",
+        "input": "Excerpt: \"Jurisdiction may be exercised where the offense is committed or the offender is present.\"",
+        "output": "States may claim jurisdiction based on location of offenders, victims, or infrastructure involved in cybercrime.",
+        "model_response": "The Budapest Convention requires that a foreign state be held accountable for an act of aggression committed in its territory."
+    },
+    {
+        "instruction": "What does the Budapest Convention require regarding cooperation?",
+        "input": "Excerpt: \"Parties shall cooperate to the widest extent possible regarding cybercrime investigations.\"",
+        "output": "The treaty mandates international cooperation, including information sharing and mutual legal assistance.",
+        "model_response": "The Budapest Convention requires parties to cooperate to the fullest extent possible in cyberspace investigations."
+    },
+    {
+        "instruction": "Explain why the Budapest Convention is the leading cybercrime treaty.",
+        "input": "Excerpt: \"It establishes harmonized laws, investigative powers, and cooperation mechanisms.\"",
+        "output": "It is the global baseline for criminalizing cyber offenses and enabling cross-border investigations.",
+        "model_response": "The Budapest Convention establishes a common set of rules for cyberspace that are similar to those in the GDPR."
+    },
+    {
+        "instruction": "Explain 18 USC 1030\u2019s definition of unauthorized access.",
+        "input": "Excerpt: \"Accessing a computer without authorization or exceeding authorized access.\"",
+        "output": "18 USC 1030 makes it a federal offense to access computer systems without permission or to misuse granted access.",
+        "model_response": "An unauthorized access condition is any action that violates the rights of users or organizations."
+    },
+    {
+        "instruction": "Describe the penalty structure under the Computer Fraud and Abuse Act.",
+        "input": "Excerpt: \"Violations may result in fines, imprisonment, or both depending on severity and intent.\"",
+        "output": "Penalties range from misdemeanors to felonies, with harsher punishment for causing damage or acting with malicious intent.",
+        "model_response": "The CFAA imposes a civil penalty of up to $10,000 for unauthorized access to protected computer systems."
+    },
+    {
+        "instruction": "Explain how FISMA establishes federal cybersecurity governance.",
+        "input": "Excerpt: \"Agencies shall develop, document, and implement information security programs.\"",
+        "output": "FISMA mandates risk-based cybersecurity programs across federal agencies and oversight by OMB and DHS.",
+        "model_response": "FISMA establishes federal cybersecurity governance that ensures agencies implement cybersecurity programs aligned with the law."
+    },
+    {
+        "instruction": "Describe the role of 10 USC 394.",
+        "input": "Excerpt: \"Commander of United States Cyber Command shall direct, synchronize, and coordinate cyberspace operations.\"",
+        "output": "10 USC 394 establishes USCYBERCOM\u2019s authority to conduct and coordinate military cyber operations.",
+        "model_response": "10 USC 394 directs the commander of the joint force to coordinate cyberspace operations and directs commanders to synchronize cyberspace operations."
+    },
+    {
+        "instruction": "Explain the purpose of 44 USC 3553 under FISMA.",
+        "input": "Excerpt: \"The Secretary of Homeland Security shall administer implementation of agency cybersecurity policies.\"",
+        "output": "44 USC 3553 gives DHS responsibility for operational cybersecurity coordination across federal agencies.",
+        "model_response": "44 USC 3553 establishes the framework for federal cybersecurity policies and establishes responsibilities for agencies."
+    },
+    {
+        "instruction": "Summarize Presidential Policy Directive 41 (PPD-41) roles in cyber incidents.",
+        "input": "Excerpt: \"Defines threat response, asset response, and intelligence support roles.\"",
+        "output": "PPD-41 clarifies federal agency responsibilities during major cyber incidents, separating operational, asset, and intelligence roles.",
+        "model_response": "PPD-41 outlines how organizations must respond to cyber incidents."
+    },
+    {
+        "instruction": "Explain PPD-41\u2019s Unified Coordination Group.",
+        "input": "Excerpt: \"A coordination structure to enable unified federal response for significant cyber incidents.\"",
+        "output": "The UCG ensures that federal agencies coordinate seamlessly during large cyber events affecting the nation.",
+        "model_response": "The PPD-41 structure allows organizations to coordinate federal response to a cyber incident across multiple agencies."
+    },
+    {
+        "instruction": "Describe NSM-8's goal.",
+        "input": "Excerpt: \"Strengthen resilience and security of U.S. critical infrastructure.\"",
+        "output": "NSM-8 aligns federal actions to protect critical sectors from physical and cyber disruptions.",
+        "model_response": "NSM-8 requires organizations to strengthen their cybersecurity posture by improving resilience and security."
+    },
+    {
+        "instruction": "Explain the purpose of the National Cyber Incident Response Plan.",
+        "input": "Excerpt: \"Outlines how the nation prepares for, responds to, and recovers from cyber incidents.\"",
+        "output": "The NCIRP provides a national framework for large-scale cyber incident coordination.",
+        "model_response": "The NICE plan outlines how the federal government and private sector will respond to cyber incidents."
+    },
+    {
+        "instruction": "Describe the intent behind National Cyber Strategy actions.",
+        "input": "Excerpt: \"Defend critical infrastructure, disrupt adversaries, and strengthen resilience.\"",
+        "output": "The strategy focuses on securing federal systems and countering nation-state cyber threats.",
+        "model_response": "The NCS stresses coordinated cyber defense, disruption, and resilience."
+    },
+    {
+        "instruction": "Explain the CISA Zero Trust Maturity Model\u2019s purpose.",
+        "input": "Excerpt: \"Provides a roadmap for federal agencies transitioning to Zero Trust.\"",
+        "output": "The model helps agencies assess their current state and plan maturity improvements across identity, devices, networks, and workloads.",
+        "model_response": "The Zero Trust model reduces the risk of compromise by requiring full access to systems and data."
+    },
+    {
+        "instruction": "Summarize CISA\u2019s guidance on phishing-resistant authentication.",
+        "input": "Excerpt: \"FIDO2 and PIV credentials provide strong, phishing-resistant authentication.\"",
+        "output": "CISA recommends using hardware-backed MFA that cannot be easily phished or replayed.",
+        "model_response": "Phishing-resistant authentication reduces the likelihood of phishing attempts by requiring strong credentials."
+    },
+    {
+        "instruction": "Describe the CISA incident response playbook requirement.",
+        "input": "Excerpt: \"Federal agencies must follow standardized response procedures for cyber incidents.\"",
+        "output": "Agencies use CISA-issued playbooks to ensure consistent and coordinated cyber incident handling.",
+        "model_response": "The playbook ensures agencies respond to cyber incidents effectively and appropriately."
+    },
+    {
+        "instruction": "Explain CISA\u2019s Cybersecurity Performance Goals (CPGs).",
+        "input": "Excerpt: \"Minimum essential cybersecurity practices for critical infrastructure entities.\"",
+        "output": "The CPGs outline prioritized actions that significantly reduce cyber risk for essential services.",
+        "model_response": "CPGs require organizations to implement cybersecurity controls that maintain system integrity and prevent unauthorized access."
+    },
+    {
+        "instruction": "Describe CISA\u2019s role in critical infrastructure security.",
+        "input": "Excerpt: \"CISA leads federal efforts to understand, manage, and reduce cyber and physical risks.\"",
+        "output": "CISA acts as the lead U.S. agency for national critical infrastructure protection.",
+        "model_response": "CISA helps organizations reduce cyber and physical risks to critical infrastructure by improving information sharing and coordination."
+    },
+    {
+        "instruction": "Explain FBI's approach to ransomware reporting.",
+        "input": "Excerpt: \"Victims should report incidents to enable disruption of threat actors.\"",
+        "output": "The FBI encourages early reporting to aid in tracking and dismantling ransomware groups.",
+        "model_response": "Ransomware detection and response is central to detecting and removing ransomware."
+    },
+    {
+        "instruction": "Describe FBI guidance on identifying cyber threats.",
+        "input": "Excerpt: \"Unusual login patterns, privilege escalation, and data exfiltration may indicate compromise.\"",
+        "output": "The FBI highlights behavioral indicators that help organizations detect cyber intrusions early.",
+        "model_response": "Identifying cyber threats requires more than just suspicious login patterns."
+    },
+    {
+        "instruction": "Explain FBI InfraGard\u2019s mission.",
+        "input": "Excerpt: \"A partnership between the FBI and critical infrastructure owners and operators.\"",
+        "output": "InfraGard facilitates threat information sharing between the private sector and law enforcement.",
+        "model_response": "InfraGard ensures law enforcement and critical infrastructure owners and operators can share cyber threat data and share defensive measures."
+    },
+    {
+        "instruction": "Summarize FBI cyber actor TTP profiles.",
+        "input": "Excerpt: \"Threat actors use spear phishing, credential theft, and remote encryption.\"",
+        "output": "FBI profiles outline common attacker behaviors, enabling better organizational defenses.",
+        "model_response": "Threat actors use TTPs to compromise systems and steal credentials."
+    },
+    {
+        "instruction": "Describe how FBI classifies cyber incidents.",
+        "input": "Excerpt: \"Incidents are categorized by impact, sector, and adversary intent.\"",
+        "output": "Incident classification helps coordinate federal response based on severity and threat type.",
+        "model_response": "Incidents are classified by their impact, sector, and adversary intent."
+    },
+    {
+        "instruction": "Explain UN GGE guidance on critical infrastructure protection.",
+        "input": "Excerpt: \"States should not conduct ICT activities that intentionally damage critical infrastructure.\"",
+        "output": "UN norms discourage states from targeting essential services like power, water, or hospitals with cyber operations.",
+        "model_response": "ICT activities that intentionally damage critical infrastructure are prohibited under GEOINT."
+    },
+    {
+        "instruction": "Describe UN norms on cyber incident cooperation.",
+        "input": "Excerpt: \"States should respond to requests for assistance in investigating malicious ICT activity.\"",
+        "output": "The UN encourages international support and information sharing during cyber incidents.",
+        "model_response": "UN norms require states to share cyber incident information with each other to prevent cyber warring."
+    },
+    {
+        "instruction": "Explain UN guidance on attribution transparency.",
+        "input": "Excerpt: \"States should provide sufficient evidence when attributing cyber activities.\"",
+        "output": "Transparency helps reduce escalation risk and increases credibility in international accusations.",
+        "model_response": "Accountability transparency means states should provide sufficient evidence when attributing cyber actions to a party."
+    },
+    {
+        "instruction": "Summarize the UN view on responsible state behavior.",
+        "input": "Excerpt: \"States should act consistent with international law and avoid harmful activity in cyberspace.\"",
+        "output": "UN norms push for peaceful, responsible use of cyber capabilities and avoidance of destabilizing operations.",
+        "model_response": "Responsible state behavior means states act responsibly in cyberspace, avoiding harmful cyber actions."
+    },
+    {
+        "instruction": "Explain the UN position on protecting the public core of the internet.",
+        "input": "Excerpt: \"States should not intentionally damage the public core of the Internet.\"",
+        "output": "UN norms consider the global Internet infrastructure as a shared resource that must not be attacked.",
+        "model_response": "The UN position requires states to safeguard the public internet by blocking and throttling malicious traffic."
+    },
+    {
+        "instruction": "Explain the core purpose of the Computer Fraud and Abuse Act (CFAA).",
+        "input": "Excerpt: \"18 U.S.C. \u00a71030 defines criminal penalties for unauthorized access to protected computers.\"",
+        "output": "The CFAA prohibits unauthorized access to computers and penalizes actions such as hacking, trafficking in access credentials, or causing damage to protected systems.",
+        "model_response": "The CFAA criminalizes unauthorized access to computers used for federal contracts, federal contracts for which are covered by HIPAA, and unauthorized access to federal computers."
+    },
+    {
+        "instruction": "Describe what constitutes an \"unauthorized access\" under the CFAA.",
+        "input": "Excerpt: \"Unauthorized access includes accessing a computer without permission or exceeding authorized privileges.\"",
+        "output": "Unauthorized access occurs when someone enters a system they were not allowed to or goes beyond the permissions they were given.",
+        "model_response": "Unauthorized access is any unauthorized access to a computer that causes damage or could harm the confidentiality of CUI."
+    },
+    {
+        "instruction": "Summarize the role of CISA under 6 U.S.C. \u00a7659.",
+        "input": "Excerpt: \"The Cybersecurity and Infrastructure Security Agency leads efforts to share threat information and protect critical infrastructure.\"",
+        "output": "CISA collects, analyzes, and shares cyber threat data and coordinates protection of U.S. critical infrastructure sectors.",
+        "model_response": "CISA helps agencies share threat data and protect critical infrastructure by sharing threat information and protecting critical infrastructure."
+    },
+    {
+        "instruction": "Explain the federal requirement for agencies to implement information security programs under FISMA.",
+        "input": "Excerpt: \"Agencies must develop, document, and implement programs to secure information systems.\"",
+        "output": "FISMA requires federal agencies to maintain risk-based cybersecurity programs, conduct annual assessments, and report system security status.",
+        "model_response": "FISMA requires agencies to develop, document, and implement security programs to protect federal information systems."
+    },
+    {
+        "instruction": "Describe the statutory mission of U.S. Cyber Command according to 10 U.S.C. \u00a7394.",
+        "input": "Excerpt: \"USCYBERCOM is responsible for directing and conducting cyberspace operations to defend U.S. interests.\"",
+        "output": "USCYBERCOM conducts operations to defend DoD networks, support joint force missions, and, when directed, engage adversaries in cyberspace.",
+        "model_response": "USCYBERCOM is responsible for cyberspace operations to defend U.S. national interests."
+    },
+    {
+        "instruction": "Summarize the purpose of FISA under 50 U.S.C. \u00a71801.",
+        "input": "Excerpt: \"Provides procedures for electronic surveillance for foreign intelligence purposes.\"",
+        "output": "FISA establishes legal standards and court oversight for U.S. intelligence agencies conducting foreign intelligence surveillance.",
+        "model_response": "FISA authorizes electronic surveillance for foreign intelligence purposes."
+    },
+    {
+        "instruction": "Explain NIST\u2019s authority under 15 U.S.C. \u00a7272.",
+        "input": "Excerpt: \"NIST is tasked with advancing measurement science and promoting technological standards.\"",
+        "output": "This law empowers NIST to develop standards\u2014including cybersecurity frameworks\u2014for use across the federal government and industry.",
+        "model_response": "The authority under 15 U.S.C. \u00a7272 gives agencies the authority to develop and implement technical standards for measuring and analyzing physical and digital properties."
+    },
+    {
+        "instruction": "Describe the purpose of the Budapest Convention on Cybercrime.",
+        "input": "Excerpt: \"International treaty to harmonize cybercrime laws and improve cooperation.\"",
+        "output": "The Budapest Convention creates unified legal definitions for cybercrime and outlines procedures for international cooperation in investigations.",
+        "model_response": "The Budapest Convention establishes a framework for harmonizing national cybercrime laws and improving cooperation."
+    },
+    {
+        "instruction": "Explain the anti-circumvention provisions of the DMCA.",
+        "input": "Excerpt: \"17 U.S.C. \u00a71201 restricts bypassing technological protection measures.\"",
+        "output": "The DMCA prohibits circumventing digital protections such as encryption or DRM, except for specific lawful exemptions.",
+        "model_response": "The anti-circumvention provisions of the DMCA protect users from being tracked or monitored by tracking technologies."
+    },
+    {
+        "instruction": "Summarize the role of mission assurance under DoDD 3020.40.",
+        "input": "Excerpt: \"Mission assurance ensures essential functions continue despite disruptions.\"",
+        "output": "Mission assurance integrates resilience, risk management, and protection measures to maintain critical DoD missions under attack.",
+        "model_response": "Mission assurance ensures operations continue despite cyber or physical attacks."
+    },
+    {
+        "instruction": "Explain the purpose of DoDI 8530.01.",
+        "input": "Excerpt: \"Establishes cybersecurity activities that support DoD information networks.\"",
+        "output": "DoDI 8530.01 sets operational cybersecurity requirements such as monitoring, incident response, and boundary defense for DoD networks.",
+        "model_response": "DoDI 8530.01 establishes cybersecurity responsibilities for DoD networks."
+    },
+    {
+        "instruction": "Describe the structure of BOD 22-01 from CISA.",
+        "input": "Excerpt: \"Directs federal agencies to mitigate known exploited vulnerabilities within specified timelines.\"",
+        "output": "BOD 22-01 requires agencies to patch vulnerabilities that are actively exploited, following strict deadlines and reporting rules.",
+        "model_response": "BOD 22-01 requires agencies to patch vulnerabilities within a specified timeframe."
+    },
+    {
+        "instruction": "Explain the purpose of CISA\u2019s Known Exploited Vulnerabilities (KEV) catalog.",
+        "input": "Excerpt: \"Maintains a list of vulnerabilities with confirmed exploitation in the wild.\"",
+        "output": "The KEV catalog helps federal agencies prioritize urgent patching for vulnerabilities that adversaries actively target.",
+        "model_response": "The KEV catalog ensures organizations can quickly spot and prioritize cybersecurity risks."
+    },
+    {
+        "instruction": "Summarize the key principle from the UN GGE cyber norms about state responsibility.",
+        "input": "Excerpt: \"States should not knowingly allow their territory to be used for internationally wrongful cyber acts.\"",
+        "output": "The UN GGE framework states that nations must prevent malicious cyber activities from being launched from within their borders.",
+        "model_response": "The GEO standard requires states to take remedial action when their territory is used for cyber attacks."
+    },
+    {
+        "instruction": "Explain the international law principle of sovereignty as applied to cyberspace.",
+        "input": "Excerpt: \"States have exclusive authority over cyber infrastructure within their territory.\"",
+        "output": "The sovereignty principle means states can regulate and defend their domestic networks from external interference.",
+        "model_response": "The principle ensures cyberspace states can control cyberspace infrastructure and use it only for authorized purposes."
+    },
+    {
+        "instruction": "Describe the Tallinn Manual 2.0 perspective on cyber operations that cause physical damage.",
+        "input": "Excerpt: \"Cyber operations resulting in physical destruction may qualify as uses of force under international law.\"",
+        "output": "Tallinn Manual experts consider cyber actions that cause physical harm to be equivalent to kinetic force under the UN Charter.",
+        "model_response": "The Tallinn Manual 2.0 framework recognizes that cyber operations can cause physical damage, even if they are not intended to cause harm."
+    },
+    {
+        "instruction": "Explain how Tallinn Manual 2.0 views state responsibility for non-state cyber actors.",
+        "input": "Excerpt: \"A state may bear responsibility if it knowingly allows harmful cyber operations by non-state groups.\"",
+        "output": "If a state is aware of malicious cyber operations by actors within its territory and does nothing, it may be held internationally accountable.",
+        "model_response": "State responsibility means a state must take steps to prevent or contain cyber attacks by non-state actors."
+    },
+    {
+        "instruction": "Summarize the Tallinn Manual\u2019s view on cyber espionage.",
+        "input": "Excerpt: \"Cyber espionage is generally not prohibited by international law, unless violating specific obligations.\"",
+        "output": "Tallinn Manual experts note that espionage is typically unregulated internationally, though states may prohibit it domestically.",
+        "model_response": "Cyber espionage is not prohibited under international law, but it is not permitted under the Manual\u2019s prohibitions."
+    },
+    {
+        "instruction": "Explain the principle of due diligence from Tallinn Manual 2.0.",
+        "input": "Excerpt: \"States must take reasonable steps to prevent cyber operations that harm other states.\"",
+        "output": "Due diligence requires states to stop harmful cyber activities occurring from within their borders when aware of them.",
+        "model_response": "Due diligence ensures states can detect and respond to cyber attacks that could harm them."
+    },
+    {
+        "instruction": "Describe how civilian data infrastructure is viewed under cyber international humanitarian law (IHL).",
+        "input": "Excerpt: \"Civilian objects must not be targeted unless they become military objectives.\"",
+        "output": "Under IHL, civilian cyber infrastructure such as hospitals or power grids must not be attacked unless being used for military advantage.",
+        "model_response": "IHL recognizes that civilian data is not always protected by military cyberspace capabilities."
+    },
+    {
+        "instruction": "Summarize the cybersecurity pillar of the 2023 National Cybersecurity Strategy.",
+        "input": "Excerpt: \"Shifts the burden of cybersecurity from individuals to capable organizations.\"",
+        "output": "The strategy encourages major software and cloud providers to implement secure-by-default practices rather than placing responsibility solely on users.",
+        "model_response": "The 2023 strategy requires organizations to strengthen their cybersecurity posture by integrating information security, threat intelligence, and risk management."
+    },
+    {
+        "instruction": "Explain how the National Cybersecurity Strategy addresses supply chain security.",
+        "input": "Excerpt: \"Enhance resilience and transparency in critical supply chains.\"",
+        "output": "The strategy promotes secure software development, component visibility, and domestic manufacturing of key technologies.",
+        "model_response": "The strategy requires organizations to improve supply chain security by improving controls and transparency."
+    },
+    {
+        "instruction": "Describe the Strategy\u2019s focus on disrupting threat actors.",
+        "input": "Excerpt: \"Employ persistent operations to disrupt malicious cyber actors.\"",
+        "output": "The U.S. plans coordinated law enforcement, diplomatic, and cyber actions to impose costs on cyber adversaries.",
+        "model_response": "The Strategy seeks to disrupt adversary cyberspace operations by continuously operating and disrupting adversary cyberspace capabilities."
+    },
+    {
+        "instruction": "Explain the Strategy\u2019s priority for critical infrastructure resilience.",
+        "input": "Excerpt: \"Set cybersecurity requirements in sectors where voluntary measures have proven insufficient.\"",
+        "output": "The strategy supports mandatory cybersecurity standards for critical sectors such as energy, water, and transportation.",
+        "model_response": "The Strategy requires organizations to adopt voluntary cybersecurity measures to reduce cyber risk."
+    },
+    {
+        "instruction": "Summarize the National Defense Strategy\u2019s view of cyber as a warfighting domain.",
+        "input": "Excerpt: \"Cyberspace is essential for joint force operations and strategic competition.\"",
+        "output": "The NDS recognizes cyberspace as a contested domain requiring persistent engagement and defensive modernization.",
+        "model_response": "The NDS emphasizes cyberspace as a warfighting domain that requires joint operations and strategic planning."
+    },
+    {
+        "instruction": "Explain why attribution is difficult in cyberspace.",
+        "input": "Excerpt: \"Adversaries often use proxies, obfuscation, and global infrastructure to mask their identities.\"",
+        "output": "Attribution is challenging because attackers can route traffic through many countries, hijack infrastructure, or impersonate others.",
+        "model_response": "Adversaries often hide their origins by using proxies, obfuscation, and global infrastructure."
+    },
+    {
+        "instruction": "Describe the role of indicators of compromise (IOCs) in incident response.",
+        "input": "Excerpt: \"IOCs include artifacts such as malicious IPs, file hashes, or unusual account behavior.\"",
+        "output": "IOCs help defenders detect intrusions and trace adversary activity across networks.",
+        "model_response": "IOCs provide indicators of compromise that can be used to detect suspicious activity or compromise."
+    },
+    {
+        "instruction": "Explain why encryption is essential for data-in-transit protection.",
+        "input": "Excerpt: \"Encryption prevents interception or eavesdropping on transmitted information.\"",
+        "output": "Encrypting data-in-transit ensures attackers cannot read information even if they capture network packets.",
+        "model_response": "Encryption protects data by preventing unauthorized parties from reading or copying data."
+    },
+    {
+        "instruction": "Describe how multi-factor authentication mitigates credential compromise.",
+        "input": "Excerpt: \"Requires multiple independent factors to verify identity.\"",
+        "output": "Even if an attacker obtains a password, MFA can block access by requiring a second factor such as a token or biometric.",
+        "model_response": "MFA reduces the likelihood of compromised credentials by requiring multiple authentication methods."
+    },
+    {
+        "instruction": "Explain why network segmentation slows adversary lateral movement.",
+        "input": "Excerpt: \"Segmentation divides networks into isolated zones with restricted communication paths.\"",
+        "output": "Segmentation forces attackers to bypass additional controls to move, giving defenders more time to detect and respond.",
+        "model_response": "Segmentation restricts adversary movement by isolating networks from common communication paths."
+    },
+    {
+        "instruction": "Summarize why the U.S. uses persistent engagement in cyberspace.",
+        "input": "Excerpt: \"Operate continuously to counter adversary campaigns.\"",
+        "output": "Persistent engagement disrupts malicious actors before they can cause harm by maintaining constant defensive and offensive pressure.",
+        "model_response": "Persistent engagement means persistent operations over time."
+    },
+    {
+        "instruction": "Explain the concept of defend forward.",
+        "input": "Excerpt: \"Identify and counter malicious cyber activity at its source.\"",
+        "output": "Defend forward involves engaging threats in foreign networks before they reach U.S. systems.",
+        "model_response": "Defend forward means identifying and defending cyberspace before it can harm U.S. networks."
+    },
+    {
+        "instruction": "Describe why cyber threat intelligence sharing is critical for national defense.",
+        "input": "Excerpt: \"Shared intelligence reduces blind spots and accelerates detection.\"",
+        "output": "Sharing information helps organizations recognize attack patterns faster and coordinate defensive actions.",
+        "model_response": "Cyber threat intelligence helps commanders detect and respond to cyber incidents more effectively."
+    },
+    {
+        "instruction": "Explain the role of risk acceptance in cybersecurity governance.",
+        "input": "Excerpt: \"Decision-makers may accept residual risk based on mission needs and compensating controls.\"",
+        "output": "Risk acceptance acknowledges that eliminating all risk is impossible and that some exposure may be tolerable if mission impact is low.",
+        "model_response": "Risk acceptance ensures organizations accept risk even when they have control effectiveness."
+    },
+    {
+        "instruction": "Describe the purpose of cyber ranges in training.",
+        "input": "Excerpt: \"Simulated environments allow teams to practice defensive and offensive operations.\"",
+        "output": "Cyber ranges create realistic scenarios where teams can build skills without risking real networks.",
+        "model_response": "Cyber ranges allow teams to test defensive and offensive operations in real-world environments."
+    },
+    {
+        "instruction": "Explain what ransomware is and how it impacts organizations.",
+        "input": "Excerpt: \"Ransomware encrypts victim files and demands payment for decryption keys.\"",
+        "output": "Ransomware is malware that locks or encrypts data, forcing victims to pay attackers to regain access to their systems.",
+        "model_response": "Ransomware encrypts files and demands payment to access them."
+    },
+    {
+        "instruction": "Describe how a botnet operates.",
+        "input": "Excerpt: \"Botnets consist of compromised systems controlled remotely by attackers.\"",
+        "output": "A botnet is a network of infected computers that attackers command to perform coordinated malicious activities like DDoS attacks.",
+        "model_response": "A botnet is a collection of compromised computers that are controlled by an attacker."
+    },
+    {
+        "instruction": "Explain what a zero-day vulnerability is.",
+        "input": "Excerpt: \"Zero-day vulnerabilities are flaws unknown to the vendor with no available patch.\"",
+        "output": "A zero-day is a software flaw that attackers can exploit before developers are aware of it or can release a fix.",
+        "model_response": "A zero-day vulnerability is a flaw that is not publicly known by the vendor."
+    },
+    {
+        "instruction": "Describe fileless malware and why it evades detection.",
+        "input": "Excerpt: \"Fileless malware operates entirely in memory without writing to disk.\"",
+        "output": "Fileless malware runs in RAM and uses legitimate system tools, making it harder for traditional antivirus to detect.",
+        "model_response": "Fileless malware is malware that does not require physical access to operate."
+    },
+    {
+        "instruction": "Explain how rootkits maintain persistence on systems.",
+        "input": "Excerpt: \"Rootkits hide deep within the operating system to avoid detection.\"",
+        "output": "Rootkits embed themselves at the OS or firmware level, concealing their presence while maintaining privileged access.",
+        "model_response": "Rootkits hide their origins by encrypting system files and keeping them from being traced."
+    },
+    {
+        "instruction": "Describe the purpose of a keylogger.",
+        "input": "Excerpt: \"Keyloggers record user keystrokes to capture sensitive information.\"",
+        "output": "Keyloggers secretly capture everything typed, enabling attackers to steal passwords, credit cards, and private communications.",
+        "model_response": "Keyloggers capture user-level and system-level information about how users and systems interact with the system."
+    },
+    {
+        "instruction": "Explain what a trojan horse is in cybersecurity.",
+        "input": "Excerpt: \"Trojans disguise themselves as legitimate software to trick users.\"",
+        "output": "A trojan appears to be useful software but contains hidden malicious code that executes once installed.",
+        "model_response": "A trojan horse is a malicious program that masquerades as a legitimate program."
+    },
+    {
+        "instruction": "Describe how worms spread across networks.",
+        "input": "Excerpt: \"Worms self-replicate and propagate without user interaction.\"",
+        "output": "Worms automatically copy themselves to other systems by exploiting vulnerabilities, spreading rapidly across networks.",
+        "model_response": "Worms spread by exploiting weaknesses in networks or by exploiting vulnerabilities in systems."
+    },
+    {
+        "instruction": "Explain what cryptojacking is.",
+        "input": "Excerpt: \"Cryptojacking hijacks computing resources to mine cryptocurrency.\"",
+        "output": "Cryptojacking secretly uses victims' processing power to mine cryptocurrency, degrading performance and increasing costs.",
+        "model_response": "Cryptojacking is the unauthorized use of cryptographic techniques to gain unauthorized access to systems."
+    },
+    {
+        "instruction": "Describe a logic bomb and when it activates.",
+        "input": "Excerpt: \"Logic bombs execute malicious code when specific conditions are met.\"",
+        "output": "A logic bomb is dormant malware that triggers based on a date, event, or condition like an employee's termination.",
+        "model_response": "Logic bombs are devices that trigger malicious code when conditions are met."
+    },
+    {
+        "instruction": "Explain the shared responsibility model in cloud security.",
+        "input": "Excerpt: \"Cloud providers secure infrastructure while customers secure their data and applications.\"",
+        "output": "The shared responsibility model divides security duties: providers protect the cloud platform, customers protect what they put in it.",
+        "model_response": "The shared responsibility model ensures both parties share risk by sharing resources and data."
+    },
+    {
+        "instruction": "Describe Infrastructure as a Service (IaaS) security considerations.",
+        "input": "Excerpt: \"IaaS provides virtualized computing resources over the internet.\"",
+        "output": "In IaaS, customers must secure operating systems, applications, and data while the provider secures physical infrastructure.",
+        "model_response": "IaaS secures data by providing virtualized computing resources over the internet."
+    },
+    {
+        "instruction": "Explain what a Cloud Access Security Broker (CASB) does.",
+        "input": "Excerpt: \"CASBs enforce security policies between cloud users and providers.\"",
+        "output": "A CASB monitors cloud usage, enforces security policies, and provides visibility into shadow IT and data transfers.",
+        "model_response": "A CASB enforces security policies between users and providers."
+    },
+    {
+        "instruction": "Describe container security challenges.",
+        "input": "Excerpt: \"Containers share the host OS kernel, creating potential security risks.\"",
+        "output": "Container security requires scanning images for vulnerabilities, isolating workloads, and securing orchestration platforms.",
+        "model_response": "Containers share the same operating system, making them vulnerable to security breaches."
+    },
+    {
+        "instruction": "Explain what serverless security involves.",
+        "input": "Excerpt: \"Serverless computing abstracts infrastructure but introduces new attack surfaces.\"",
+        "output": "Serverless security focuses on code vulnerabilities, function permissions, and event trigger validation since infrastructure is managed.",
+        "model_response": "Serverless security reduces compromise by removing the need for centralized access."
+    },
+    {
+        "instruction": "Describe cloud security posture management (CSPM).",
+        "input": "Excerpt: \"CSPM continuously monitors cloud configurations for security risks.\"",
+        "output": "CSPM tools scan cloud environments for misconfigurations, compliance violations, and security gaps across accounts.",
+        "model_response": "CSPM ensures organizations maintain control over their cloud environments by monitoring and controlling access to them."
+    },
+    {
+        "instruction": "Explain the security challenges of multi-cloud environments.",
+        "input": "Excerpt: \"Multi-cloud strategies increase complexity and potential attack surfaces.\"",
+        "output": "Multi-cloud requires consistent policies across providers, unified visibility, and managing different security tools and APIs.",
+        "model_response": "Multi-cloud environments require more security controls and more monitoring to maintain secure operations."
+    },
+    {
+        "instruction": "Describe API security best practices.",
+        "input": "Excerpt: \"APIs are common attack vectors requiring authentication and input validation.\"",
+        "output": "API security includes strong authentication, rate limiting, input validation, encryption, and monitoring for abuse.",
+        "model_response": "API security ensures users and applications can trust the data they produce and trust the integrity of their inputs."
+    },
+    {
+        "instruction": "Explain symmetric encryption and its use cases.",
+        "input": "Excerpt: \"Symmetric encryption uses the same key for encryption and decryption.\"",
+        "output": "Symmetric encryption is fast and efficient for bulk data, using a single shared key that both parties must protect.",
+        "model_response": "Symmetric encryption secures data by encrypting data at rest and decrypting it when it leaves the system."
+    },
+    {
+        "instruction": "Describe asymmetric encryption and public key infrastructure.",
+        "input": "Excerpt: \"Asymmetric encryption uses a public key to encrypt and private key to decrypt.\"",
+        "output": "Asymmetric encryption enables secure key exchange and digital signatures using mathematically linked key pairs.",
+        "model_response": "Asymmetric encryption secures data by encrypting the data and revealing its private key."
+    },
+    {
+        "instruction": "Explain the purpose of hashing in cybersecurity.",
+        "input": "Excerpt: \"Hashing creates a fixed-size fingerprint of data for integrity verification.\"",
+        "output": "Hashing converts data into a unique digest that detects tampering since any change produces a different hash.",
+        "model_response": "Hashing ensures that only the most significant data is encrypted by encrypting the entire dataset."
+    },
+    {
+        "instruction": "Describe post-quantum cryptography and why it matters.",
+        "input": "Excerpt: \"Quantum computers threaten current encryption algorithms.\"",
+        "output": "Post-quantum cryptography develops algorithms resistant to quantum attacks that could break RSA and ECC encryption.",
+        "model_response": "Quantum computers can bypass encryption by exploiting the fact that the system can process multiple signals simultaneously."
+    },
+    {
+        "instruction": "Explain what Transport Layer Security (TLS) protects.",
+        "input": "Excerpt: \"TLS encrypts communications between clients and servers.\"",
+        "output": "TLS secures data in transit, providing confidentiality, integrity, and authentication for web and application traffic.",
+        "model_response": "TLS secures connections between systems and the data they receive by encrypting data and delivering encrypted sessions."
+    },
+    {
+        "instruction": "Describe the role of digital certificates in authentication.",
+        "input": "Excerpt: \"Digital certificates bind public keys to verified identities.\"",
+        "output": "Certificates prove ownership of public keys, enabling encrypted communications and verifying website or user identity.",
+        "model_response": "Digital certificates provide a strong identity verification layer that can be used to authenticate users and devices."
+    },
+    {
+        "instruction": "Explain key management best practices.",
+        "input": "Excerpt: \"Proper key management protects cryptographic keys throughout their lifecycle.\"",
+        "output": "Key management includes secure generation, storage, rotation, and destruction of keys using hardware security modules.",
+        "model_response": "Key management ensures users and organizations retain control over cryptographic keys used to encrypt and authenticate data."
+    },
+    {
+        "instruction": "Describe homomorphic encryption capabilities.",
+        "input": "Excerpt: \"Homomorphic encryption allows computation on encrypted data.\"",
+        "output": "Homomorphic encryption processes data without decrypting it, enabling secure cloud computing on sensitive information.",
+        "model_response": "Homomorphic encryption secures data by encrypting the data at rest and processing it in a way that does not compromise confidentiality."
+    },
+    {
+        "instruction": "Explain the five pillars of the 2023 National Cybersecurity Strategy.",
+        "input": "Excerpt: \"The Strategy organizes efforts around five pillars for comprehensive cybersecurity.\"",
+        "output": "The pillars are: Defend Critical Infrastructure, Disrupt Threat Actors, Shape Market Forces, Invest in Resilience, and Forge International Partnerships.",
+        "model_response": "The pillars are:\nInformation Assurance, Information Integrity, Information Operations, Network Operations, and Governance."
+    },
+    {
+        "instruction": "Describe how the National Cybersecurity Strategy shifts responsibility.",
+        "input": "Excerpt: \"The Strategy rebalances responsibility from individuals to capable organizations.\"",
+        "output": "The Strategy places security burden on technology providers and large organizations rather than end users and small businesses.",
+        "model_response": "The strategy shifts from individuals to organizations that can effectively protect networks."
+    },
+    {
+        "instruction": "Explain the Strategy's approach to software liability.",
+        "input": "Excerpt: \"Manufacturers should be liable for insecure software products.\"",
+        "output": "The Strategy supports holding software makers accountable when they fail to implement reasonable security practices.",
+        "model_response": "The Strategy requires manufacturers to be held liable for software they supply to federal agencies."
+    },
+    {
+        "instruction": "Describe the Joint Cyber Defense Collaborative (JCDC).",
+        "input": "Excerpt: \"JCDC integrates public and private cyber defense planning.\"",
+        "output": "JCDC at CISA brings together government agencies and private sector partners to coordinate threat response and planning.",
+        "model_response": "The JCDC develops joint cyber defense plans for DoD and partners."
+    },
+    {
+        "instruction": "Explain the Counter-Ransomware Initiative.",
+        "input": "Excerpt: \"International coalition to combat ransomware through cooperation.\"",
+        "output": "The CRI unites 30+ countries to share intelligence, disrupt criminal infrastructure, and counter ransomware payments.",
+        "model_response": "The CRI is a U.S.-led initiative to combat ransomware by coordinating cyber-defence and public-health efforts."
+    },
+    {
+        "instruction": "Describe the Strategy's position on cyber workforce development.",
+        "input": "Excerpt: \"Addresses hundreds of thousands of unfilled cybersecurity positions.\"",
+        "output": "The Strategy calls for expanding cyber education, improving diversity, and removing barriers to cyber careers.",
+        "model_response": "The Strategy emphasizes workforce development to improve cybersecurity performance."
+    }
+]

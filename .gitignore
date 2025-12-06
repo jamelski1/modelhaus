@@ -55,3 +55,10 @@ jp312_qa_dataset*
 
 # Environment variables
 .env
+*.pth
+*.pt
+*.bin
+*.data-*
+*.index
+*.meta
+gpt2/
