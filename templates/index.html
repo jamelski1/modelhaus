@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HausGPT - JP 3-12 Cyberspace Operations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .input-section {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            font-family: inherit;
+            resize: vertical;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .control-group input {
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        .control-group input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .slider-value {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+
+        button {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .output-section {
+            margin-top: 30px;
+            display: none;
+        }
+
+        .output-section.visible {
+            display: block;
+        }
+
+        .output-box {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: #fee;
+            border-left-color: #e74c3c;
+            color: #c0392b;
+        }
+
+        .footer {
+            background: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        .example-prompts {
+            background: #e8f4f8;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .example-prompts h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        .example-prompts button {
+            background: white;
+            color: #3498db;
+            border: 2px solid #3498db;
+            padding: 8px 15px;
+            font-size: 0.9em;
+            margin: 5px;
+            width: auto;
+        }
+
+        .example-prompts button:hover {
+            background: #3498db;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HausGPT</h1>
+            <p>JP 3-12 Cyberspace Operations - Fine-tuned Language Model</p>
+        </div>
+
+        <div class="content">
+            <div class="example-prompts">
+                <h3>Example Questions:</h3>
+                <button onclick="setPrompt('What is cyberspace according to JP 3-12?')">What is cyberspace?</button>
+                <button onclick="setPrompt('What are the primary objectives of cyberspace operations?')">Cyberspace objectives</button>
+                <button onclick="setPrompt('Which organizations are responsible for cyberspace defense?')">Organizations responsible</button>
+            </div>
+
+            <div class="input-section">
+                <label for="prompt">Enter your question or prompt:</label>
+                <textarea id="prompt" rows="4" placeholder="Type your question about JP 3-12 Cyberspace Operations here..."></textarea>
+            </div>
+
+            <div class="controls">
+                <div class="control-group">
+                    <label for="max_length">Max Length: <span id="max_length_value">200</span></label>
+                    <input type="range" id="max_length" min="50" max="500" value="200" oninput="updateValue('max_length')">
+                </div>
+
+                <div class="control-group">
+                    <label for="temperature">Temperature: <span id="temperature_value">0.7</span></label>
+                    <input type="range" id="temperature" min="0.1" max="1.5" step="0.1" value="0.7" oninput="updateValue('temperature')">
+                </div>
+
+                <div class="control-group">
+                    <label for="top_p">Top P: <span id="top_p_value">0.9</span></label>
+                    <input type="range" id="top_p" min="0.1" max="1.0" step="0.05" value="0.9" oninput="updateValue('top_p')">
+                </div>
+            </div>
+
+            <button id="generateBtn" onclick="generateText()">Generate Response</button>
+
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Generating response...</p>
+            </div>
+
+            <div id="outputSection" class="output-section">
+                <label>Response:</label>
+                <div id="output" class="output-box"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Powered by HausGPT | Fine-tuned on JP 3-12 Cyberspace Operations</p>
+        </div>
+    </div>
+
+    <script>
+        function updateValue(id) {
+            const input = document.getElementById(id);
+            const display = document.getElementById(id + '_value');
+            display.textContent = input.value;
+        }
+
+        function setPrompt(text) {
+            document.getElementById('prompt').value = text;
+        }
+
+        async function generateText() {
+            const prompt = document.getElementById('prompt').value.trim();
+
+            if (!prompt) {
+                alert('Please enter a prompt');
+                return;
+            }
+
+            const maxLength = parseInt(document.getElementById('max_length').value);
+            const temperature = parseFloat(document.getElementById('temperature').value);
+            const topP = parseFloat(document.getElementById('top_p').value);
+
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('outputSection').classList.remove('visible');
+            document.getElementById('generateBtn').disabled = true;
+
+            try {
+                const response = await fetch('/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        prompt: prompt,
+                        max_length: maxLength,
+                        temperature: temperature,
+                        top_p: topP
+                    })
+                });
+
+                const data = await response.json();
+
+                // Hide loading
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('generateBtn').disabled = false;
+
+                if (data.success) {
+                    // Show output
+                    const outputBox = document.getElementById('output');
+                    outputBox.textContent = data.response;
+                    outputBox.classList.remove('error');
+                    document.getElementById('outputSection').classList.add('visible');
+                } else {
+                    // Show error
+                    const outputBox = document.getElementById('output');
+                    outputBox.textContent = 'Error: ' + data.error;
+                    outputBox.classList.add('error');
+                    document.getElementById('outputSection').classList.add('visible');
+                }
+
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('generateBtn').disabled = false;
+
+                const outputBox = document.getElementById('output');
+                outputBox.textContent = 'Error: ' + error.message;
+                outputBox.classList.add('error');
+                document.getElementById('outputSection').classList.add('visible');
+            }
+        }
+
+        // Allow Enter key to submit (Ctrl+Enter for newline)
+        document.getElementById('prompt').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                e.preventDefault();
+                generateText();
+            }
+        });
+    </script>
+</body>
+</html>
