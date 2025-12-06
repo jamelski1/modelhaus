@@ -12,7 +12,10 @@ import os
 app = Flask(__name__)
 
 # Configuration
-MODEL_ID = "jamelski/HausGPT"
+# TODO: Update this to your custom model once uploaded in HuggingFace format
+# For now, using base GPT-2 as the model isn't in the correct format
+MODEL_ID = "gpt2"  # Temporarily using base GPT-2
+# Original custom model (needs to be re-uploaded): "jamelski/HausGPT"
 MAX_LENGTH = 200
 TEMPERATURE = 0.7
 TOP_P = 0.9
