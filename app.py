@@ -67,7 +67,7 @@ def load_model():
             "n_heads": hparams.get("n_head", 16),
             "n_layers": hparams.get("n_layer", 24),
             "drop_rate": hparams.get("drop_rate", 0.1),  # Default dropout rate
-            "qkv_bias": hparams.get("qkv_bias", False)   # Default no bias in attention
+            "qkv_bias": True  # Model was trained with bias in attention layers
         }
 
         print(f"Mapped config for GPTModel: {cfg}")
