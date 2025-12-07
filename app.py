@@ -136,14 +136,15 @@ def generate_response(prompt, max_length=MAX_LENGTH, temperature=TEMPERATURE, to
 
         # Generate using the custom generate function from previous_chapters
         # Note: top_p is not supported by the generate function, using top_k=50 instead
+        # Using positional arguments for compatibility
         output_ids = generate(
-            model=model,
-            idx=input_ids,
-            max_new_tokens=max_new_tokens,
-            context_size=model_config["context_length"],
-            temperature=temperature,
-            top_k=50,  # Using top_k as approximation for top_p
-            eos_id=None  # GPT-2's <|endoftext|> token is 50256, but let it generate fully
+            model,
+            input_ids,
+            max_new_tokens,
+            model_config["context_length"],
+            temperature,
+            50,  # top_k as approximation for top_p
+            None  # eos_id - let it generate fully
         )
 
         # Decode the response using tiktoken
