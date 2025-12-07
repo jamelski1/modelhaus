@@ -44,26 +44,11 @@ def load_model():
             filename="hparams.json"
         )
 
-        encoder_path = hf_hub_download(
-            repo_id=MODEL_ID,
-            filename="encoder.json"
-        )
-
-        vocab_path = hf_hub_download(
-            repo_id=MODEL_ID,
-            filename="vocab.bpe"
-        )
-
         print("Files downloaded successfully")
 
-        # Load tiktoken tokenizer with custom files (matching training setup)
+        # Load tiktoken tokenizer (standard GPT-2 encoding, matching training setup)
         print("Loading tiktoken tokenizer...")
-        tokenizer = tiktoken.get_encoding(
-            "gpt2",
-            pretrained=False,
-            mergeable_ranks_path=encoder_path,
-            bcpe_path=vocab_path,
-        )
+        tokenizer = tiktoken.get_encoding("gpt2")
 
         # Load model config from hparams.json
         print("Loading model config...")
