@@ -6,7 +6,7 @@ A Flask web application to interact with the fine-tuned JP 3-12 model.
 
 from flask import Flask, render_template, request, jsonify
 from huggingface_hub import hf_hub_download
-from previous_chapters import GPTModel, generate
+from previous_chapters import GPTModel, generate as gpt_generate
 import tiktoken
 import torch
 import json
@@ -137,7 +137,7 @@ def generate_response(prompt, max_length=MAX_LENGTH, temperature=TEMPERATURE, to
         # Generate using the custom generate function from previous_chapters
         # Note: top_p is not supported by the generate function, using top_k=50 instead
         # Using positional arguments for compatibility
-        output_ids = generate(
+        output_ids = gpt_generate(
             model,
             input_ids,
             max_new_tokens,
