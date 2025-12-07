@@ -5,17 +5,17 @@ A Flask web application to interact with the fine-tuned JP 3-12 model.
 """
 
 from flask import Flask, render_template, request, jsonify
-from transformers import GPT2LMHeadModel, GPT2TokenizerFast
+from transformers import GPT2TokenizerFast
+from huggingface_hub import hf_hub_download
+from previous_chapters import GPTModel
 import torch
+import json
 import os
 
 app = Flask(__name__)
 
 # Configuration
-# TODO: Update this to your custom model once uploaded in HuggingFace format
-# For now, using base GPT-2 as the model isn't in the correct format
-MODEL_ID = "gpt2"  # Temporarily using base GPT-2
-# Original custom model (needs to be re-uploaded): "jamelski/HausGPT"
+MODEL_ID = "jamelski/HausGPT"  # Hugging Face repo with checkpoint files
 MAX_LENGTH = 200
 TEMPERATURE = 0.7
 TOP_P = 0.9
@@ -26,13 +26,56 @@ tokenizer = None
 
 
 def load_model():
-    """Load the model and tokenizer (called once at startup)."""
+    """Load the custom GPTModel and tokenizer from Hugging Face Hub."""
     global model, tokenizer
 
-    print("Loading model and tokenizer...")
+    print("Loading model and tokenizer from Hugging Face Hub...")
     try:
-        tokenizer = GPT2TokenizerFast.from_pretrained(MODEL_ID)
-        model = GPT2LMHeadModel.from_pretrained(MODEL_ID)
+        # Download checkpoint and config files from Hub
+        print(f"Downloading files from {MODEL_ID}...")
+
+        checkpoint_path = hf_hub_download(
+            repo_id=MODEL_ID,
+            filename="gpt2-medium355M-sft.pth"
+        )
+
+        hparams_path = hf_hub_download(
+            repo_id=MODEL_ID,
+            filename="hparams.json"
+        )
+
+        encoder_path = hf_hub_download(
+            repo_id=MODEL_ID,
+            filename="encoder.json"
+        )
+
+        vocab_path = hf_hub_download(
+            repo_id=MODEL_ID,
+            filename="vocab.bpe"
+        )
+
+        print("Files downloaded successfully")
+
+        # Load tokenizer manually with explicit vocab/merges files
+        print("Loading tokenizer...")
+        tokenizer = GPT2TokenizerFast(
+            vocab_file=encoder_path,
+            merges_file=vocab_path,
+        )
+
+        # Load model config from hparams.json
+        print("Loading model config...")
+        with open(hparams_path, 'r') as f:
+            cfg = json.load(f)
+
+        # Create custom GPTModel instance
+        print("Creating GPTModel...")
+        model = GPTModel(cfg)
+
+        # Load checkpoint weights
+        print("Loading checkpoint weights...")
+        state = torch.load(checkpoint_path, map_location="cpu")
+        model.load_state_dict(state)
 
         # Move to GPU if available
         device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -40,8 +83,11 @@ def load_model():
         model.eval()
 
         print(f"Model loaded successfully on {device}")
+
     except Exception as e:
         print(f"Error loading model: {e}")
+        import traceback
+        traceback.print_exc()
         raise
 
 
