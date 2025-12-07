@@ -6,7 +6,7 @@ A Flask web application to interact with the fine-tuned JP 3-12 model.
 
 from flask import Flask, render_template, request, jsonify
 from huggingface_hub import hf_hub_download
-from previous_chapters import GPTModel
+from previous_chapters import GPTModel, generate
 import tiktoken
 import torch
 import json
@@ -23,11 +23,12 @@ TOP_P = 0.9
 # Global variables for model and tokenizer
 model = None
 tokenizer = None
+model_config = None
 
 
 def load_model():
     """Load the custom GPTModel and tiktoken tokenizer from Hugging Face Hub."""
-    global model, tokenizer
+    global model, tokenizer, model_config
 
     print("Loading model and tokenizer from Hugging Face Hub...")
     try:
@@ -71,6 +72,9 @@ def load_model():
 
         print(f"Mapped config for GPTModel: {cfg}")
 
+        # Store config globally for use in generate_response
+        model_config = cfg
+
         # Create custom GPTModel instance
         print("Creating GPTModel...")
         model = GPTModel(cfg)
@@ -80,9 +84,14 @@ def load_model():
         state = torch.load(checkpoint_path, map_location="cpu")
         model.load_state_dict(state)
 
-        # Move to GPU if available
+        # Move to GPU if available, use half precision to save memory
         device = "cuda" if torch.cuda.is_available() else "cpu"
         model.to(device)
+
+        # Convert to half precision (float16) to reduce memory usage by ~50%
+        print("Converting model to half precision (float16) to save memory...")
+        model.half()
+
         model.eval()
 
         print(f"Model loaded successfully on {device}")
@@ -100,38 +109,52 @@ def generate_response(prompt, max_length=MAX_LENGTH, temperature=TEMPERATURE, to
 
     Args:
         prompt: Input text
-        max_length: Maximum length of generated text
+        max_length: Maximum length of generated text (total, including prompt)
         temperature: Sampling temperature (higher = more random)
-        top_p: Nucleus sampling parameter
+        top_p: Nucleus sampling parameter (not used with current generate function)
 
     Returns:
         Generated text
     """
+    global model, tokenizer, model_config
+
     if model is None or tokenizer is None:
         return "Error: Model not loaded"
 
     try:
-        # Encode the prompt
-        device = "cuda" if torch.cuda.is_available() else "cpu"
-        inputs = tokenizer.encode(prompt, return_tensors="pt").to(device)
+        # Encode the prompt using tiktoken
+        device = next(model.parameters()).device
+        token_ids = tokenizer.encode(prompt, allowed_special={"<|endoftext|>"})
 
-        # Generate response
-        with torch.no_grad():
-            outputs = model.generate(
-                inputs,
-                max_length=max_length,
-                temperature=temperature,
-                top_p=top_p,
-                do_sample=True,
-                pad_token_id=tokenizer.eos_token_id,
-                num_return_sequences=1
-            )
+        # Convert to tensor and add batch dimension
+        input_ids = torch.tensor(token_ids, dtype=torch.long).unsqueeze(0).to(device)
 
-        # Decode the response
-        response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        # Calculate how many new tokens to generate
+        max_new_tokens = max_length - len(token_ids)
+        if max_new_tokens <= 0:
+            max_new_tokens = 50  # Generate at least 50 tokens
+
+        # Generate using the custom generate function from previous_chapters
+        # Note: top_p is not supported by the generate function, using top_k=50 instead
+        output_ids = generate(
+            model=model,
+            idx=input_ids,
+            max_new_tokens=max_new_tokens,
+            context_size=model_config["context_length"],
+            temperature=temperature,
+            top_k=50,  # Using top_k as approximation for top_p
+            eos_id=None  # GPT-2's <|endoftext|> token is 50256, but let it generate fully
+        )
+
+        # Decode the response using tiktoken
+        output_tokens = output_ids[0].tolist()
+        response = tokenizer.decode(output_tokens)
+
         return response
 
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return f"Error generating response: {str(e)}"
 
 
