@@ -5,9 +5,9 @@ A Flask web application to interact with the fine-tuned JP 3-12 model.
 """
 
 from flask import Flask, render_template, request, jsonify
-from transformers import GPT2TokenizerFast
 from huggingface_hub import hf_hub_download
 from previous_chapters import GPTModel
+import tiktoken
 import torch
 import json
 import os
@@ -26,7 +26,7 @@ tokenizer = None
 
 
 def load_model():
-    """Load the custom GPTModel and tokenizer from Hugging Face Hub."""
+    """Load the custom GPTModel and tiktoken tokenizer from Hugging Face Hub."""
     global model, tokenizer
 
     print("Loading model and tokenizer from Hugging Face Hub...")
@@ -56,11 +56,13 @@ def load_model():
 
         print("Files downloaded successfully")
 
-        # Load tokenizer manually with explicit vocab/merges files
-        print("Loading tokenizer...")
-        tokenizer = GPT2TokenizerFast(
-            vocab_file=encoder_path,
-            merges_file=vocab_path,
+        # Load tiktoken tokenizer with custom files (matching training setup)
+        print("Loading tiktoken tokenizer...")
+        tokenizer = tiktoken.get_encoding(
+            "gpt2",
+            pretrained=False,
+            mergeable_ranks_path=encoder_path,
+            bcpe_path=vocab_path,
         )
 
         # Load model config from hparams.json
