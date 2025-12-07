@@ -55,6 +55,14 @@ def load_model():
         with open(hparams_path, 'r') as f:
             cfg = json.load(f)
 
+        print(f"Config keys: {list(cfg.keys())}")
+        print(f"Config: {cfg}")
+
+        # Add vocab_size if missing (GPT-2 standard vocab size)
+        if "vocab_size" not in cfg:
+            print("Adding vocab_size=50257 (GPT-2 standard)")
+            cfg["vocab_size"] = 50257
+
         # Create custom GPTModel instance
         print("Creating GPTModel...")
         model = GPTModel(cfg)
