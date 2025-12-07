@@ -53,15 +53,23 @@ def load_model():
         # Load model config from hparams.json
         print("Loading model config...")
         with open(hparams_path, 'r') as f:
-            cfg = json.load(f)
+            hparams = json.load(f)
 
-        print(f"Config keys: {list(cfg.keys())}")
-        print(f"Config: {cfg}")
+        print(f"Original config keys: {list(hparams.keys())}")
+        print(f"Original config: {hparams}")
 
-        # Add vocab_size if missing (GPT-2 standard vocab size)
-        if "vocab_size" not in cfg:
-            print("Adding vocab_size=50257 (GPT-2 standard)")
-            cfg["vocab_size"] = 50257
+        # Map hparams.json keys to GPTModel expected keys
+        cfg = {
+            "vocab_size": hparams.get("n_vocab", 50257),
+            "context_length": hparams.get("n_ctx", 1024),
+            "emb_dim": hparams.get("n_embd", 1024),
+            "n_heads": hparams.get("n_head", 16),
+            "n_layers": hparams.get("n_layer", 24),
+            "drop_rate": hparams.get("drop_rate", 0.1),  # Default dropout rate
+            "qkv_bias": hparams.get("qkv_bias", False)   # Default no bias in attention
+        }
+
+        print(f"Mapped config for GPTModel: {cfg}")
 
         # Create custom GPTModel instance
         print("Creating GPTModel...")
