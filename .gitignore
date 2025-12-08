@@ -43,6 +43,7 @@ Thumbs.db
 *.bin
 *.safetensors
 models/
+ch07/01_main-chapter-code/gpt2-medium355M-sft.pth
 
 # Dataset files
 *.pdf
