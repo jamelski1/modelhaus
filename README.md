@@ -3,15 +3,13 @@ Question-Answer Fine-Tuned Cyber Model
 
 This repository contains tools for building QA datasets from JP 3-12 and a web interface for the fine-tuned HausGPT model.
 
-## 🌐 HausGPT Web Interface
+## HausGPT Web Interface
 
 A Flask-based web application to interact with the fine-tuned JP 3-12 Cyberspace Operations model.
 
-**Live Demo**: [Deploy to Render](./DEPLOY_RENDER.md)
-
 **Model**: [jamelski/HausGPT on Hugging Face](https://huggingface.co/jamelski/HausGPT)
 
-### Quick Start (Local)
+### Local Deployment
 
 ```bash
 # Install dependencies
@@ -25,21 +23,23 @@ python app.py
 
 ### Features
 
-- 🎨 Clean, modern web interface
-- 🔧 Adjustable generation parameters (temperature, top_p, max_length)
-- 💬 Example prompts for JP 3-12 questions
-- 📱 Responsive design for mobile and desktop
-- ⚡ Fast inference with GPU support (if available)
+- Clean, modern web interface
+- Adjustable generation parameters (temperature, top_p, max_length)
+- Example prompts for JP 3-12 questions
+- Responsive design for mobile and desktop
+- Fast inference with GPU support (if available)
 
-### Deploying to Render
+---
 
-See the complete deployment guide: [DEPLOY_RENDER.md](./DEPLOY_RENDER.md)
+## Training the Model
 
-**Quick steps:**
-1. Push this repo to GitHub
-2. Create a new Web Service on Render
-3. Connect your GitHub repository
-4. Render will auto-deploy from `main` branch
+To train the HausGPT model yourself, use the training notebook:
+
+```
+ch07/01_main-chapter-code/ch07.ipynb
+```
+
+This Jupyter notebook contains the full training pipeline for fine-tuning the model.
 
 ---
 
